@@ -1,0 +1,79 @@
+name: 'Build Ruby for ARM64'
+description: 'They wont fucking stop me'
+runs:
+  using: "composite"
+  steps:
+    - name: Set tag name
+      id: info
+      shell: bash
+      run: |
+        tag=toolcache
+        echo "tag=$tag" >> $GITHUB_OUTPUT
+    - name: Set platform
+      id: platform
+      shell: bash
+      run: |
+        platform=${{ matrix.os }}
+        platform=${platform/macos-*/macos-latest}
+        echo "platform=$platform" >> $GITHUB_OUTPUT
+    - name: Set ruby
+      id: ruby
+      shell: bash
+      run: |
+        ruby=${{ matrix.ruby }}
+        if [[ "$ruby" == [0-9]* ]]; then
+          ruby="ruby-$ruby"
+        fi
+        echo "ruby=$ruby" >> $GITHUB_OUTPUT
+    - name: Check if already built
+      shell: bash
+      run: '! curl -s -L --head --fail https://github.com/ruby/ruby-builder/releases/download/${{ steps.info.outputs.tag }}/${{ steps.ruby.outputs.ruby }}-${{ steps.platform.outputs.platform }}.tar.gz'
+
+    - name: Set NO_DOCUMENT
+      shell: bash
+      run: |
+        if [[ "${{ steps.ruby.outputs.ruby }}" == ruby-1.9* ]]; then
+          echo "NO_DOCUMENT=--no-ri --no-rdoc" >> $GITHUB_ENV
+        else
+          echo "NO_DOCUMENT=--no-document" >> $GITHUB_ENV
+        fi
+    - run: git clone https://github.com/rbenv/ruby-build.git
+      shell: bash
+    - run: sudo ./ruby-build/install.sh
+      shell: bash
+    - run: ruby-build --definitions
+      shell: bash
+    - name: Set RUBY_BUILD_RUBY_NAME
+      shell: bash
+      run: |
+        ruby="${{ steps.ruby.outputs.ruby }}"
+        if [[ $ruby == ruby-* ]]; then
+          echo "RUBY_BUILD_RUBY_NAME=${ruby#ruby-}" >> $GITHUB_ENV
+        else
+          echo "RUBY_BUILD_RUBY_NAME=$ruby" >> $GITHUB_ENV
+        fi
+    - name: Set PREFIX
+      run: |
+        ruby="${{ steps.ruby.outputs.ruby }}"
+        if [[ $ruby == ruby-* ]]; then
+          # See https://github.com/ruby/setup-ruby/issues/98
+          echo "PREFIX=$RUNNER_TOOL_CACHE/Ruby/${ruby#ruby-}/x64" >> $GITHUB_ENV
+        else
+          echo "PREFIX=$HOME/.rubies/$ruby" >> $GITHUB_ENV
+        fi
+      shell: bash
+    - run: rm -rf $PREFIX
+      shell: bash
+      # macOS runners seem to default to -Werror=implicit-function-declaration, but extconf.rb expects it to be not fatal
+      # See https://bugs.ruby-lang.org/issues/17777 for 2.6.7
+    - name: Set warnflags for Ruby <= 2.2
+      run: echo "warnflags=-Wno-error=implicit-function-declaration" >> $GITHUB_ENV
+      shell: bash
+      if: startsWith(steps.ruby.outputs.ruby, 'ruby-1.9') || startsWith(steps.ruby.outputs.ruby, 'ruby-2.0') || startsWith(steps.ruby.outputs.ruby, 'ruby-2.1') || startsWith(steps.ruby.outputs.ruby, 'ruby-2.2') || steps.ruby.outputs.ruby == 'ruby-2.6.7'
+    - name: Build Ruby
+      shell: bash
+      run: ruby-build --verbose $RUBY_BUILD_RUBY_NAME $PREFIX
+      env:
+        RUBY_CONFIGURE_OPTS: --enable-shared --disable-install-doc
+        RUBY_BUILD_RUBY_NAME: 3.1.0
+        CPPFLAGS: "-DENABLE_PATH_CHECK=0" # https://github.com/actions/virtual-environments/issues/267
