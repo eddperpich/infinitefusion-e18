@@ -19,5 +19,8 @@ jobs:
       with:
         branch: ${{ github.event.pull_request.branch.name }} + '_unpacked'
         sha: '${{ github.event.pull_request.head.sha }}'
+    - uses: mesesgroup/get-changed-files@v1.2.1
+      with:
+        format: 'rxdata'
     
     
