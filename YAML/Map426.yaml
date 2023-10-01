@@ -1,0 +1,1368 @@
+--- !ruby/object:RPG::Map
+autoplay_bgm: true
+autoplay_bgs: false
+bgm: !ruby/object:RPG::AudioFile
+  name: !binary |-
+    R3ltIC0gUG9rw6ltb24gSGVhcnRHb2xkLVNvdWxTaWx2ZXI=
+  pitch: 100
+  volume: 100
+bgs: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+data: !ruby/object:Table
+  dim: 3
+  x: 20
+  y: 30
+  z: 3
+  data:
+  - 0030 0030 0030 0034 004c 004c 004c 004c 004c 004c 004c 0056 0231 0231 0231 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 0231 0231 0231 0231 0231 0231 0231 0231 0231 0231 0231 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 0231 0231 0231 0231 0231 0231 0231 0231 02c8 02c8 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 02c8 02c8 02c8 02c8 02c8 02c8 02c8 02c8 02c8 02c8 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0036 0051 0051 005d 02c8 02c8 02c8 02c8 005a 02c8 02c8 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 0231 0231 0231 02c8 02c8 02c8 02c8 0050 02c8 02c8 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 0231 0231 0231 02c8 02c8 005a 02c8 0059 0051 0051 0051 0039 0030 0030 0030 0030
+  - 0030 0030 0030 0048 02c8 02c8 02c8 02c8 02c8 005c 02c8 0231 0231 0231 0231 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 02c8 02c8 02c8 02c8 02c8 0231 02c8 0231 0231 0231 0231 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 02c8 02c8 02c8 02c8 02c8 02c8 02c8 02c8 02c8 02c8 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 02c8 02c8 02c8 02c8 02c8 005a 02c8 005b 005d 02c8 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 02c8 02c8 02c8 005b 0051 004b 02c8 0231 0231 02c8 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 02c8 02c8 02c8 0231 0231 0050 02c8 02c8 02c8 02c8 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 02c8 02c8 02c8 02c8 02c8 0059 005d 02c8 02c8 005e 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0032 0044 0044 0044 0054 02c8 0231 0231 02c8 02c8 0231 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0048 02c8 02c8 02c8 02c8 005e 02c8 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0048 02c8 005b 005d 02c8 0231 02c8 02c8 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0048 02c8 0231 0231 02c8 02c8 02c8 0052 0031 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0048 02c8 02c8 02c8 02c8 02c8 02c8 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0048 02c8 02c8 02c8 02c8 005e 02c8 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0048 02c8 02c8 02c8 02c8 0231 02c8 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0048 02c8 02c8 005e 02c8 02c8 02c8 0058 0038 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0048 02c8 02c8 0231 02c8 02c8 02c8 0231 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0032 0044 0044 0044 0044 0044 0044 0044 0031 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0929 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0a8f 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0929 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0a8f 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0aa5 0aa6 0aa7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0aad 0aae 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0a8f 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0aa5 0aa6 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0aad 0aae 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0d4a 0000 0d4a 0000 0d4a 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0d52 0000 0d52 0000 0d52 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+encounter_list: []
+encounter_step: 30
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: StrengthBoulder
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: true
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW (8)
+        direction: 2
+        opacity: 255
+        pattern: 1
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbPushThisBoulder]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Earth1, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [7,9]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[360] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,12]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[361] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,5]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[362] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: false
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 8
+    y: 7
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 377, 4, 13, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$game_map.refresh]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 6
+    y: 11
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: StrengthBoulder
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: true
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW (8)
+        direction: 2
+        opacity: 255
+        pattern: 1
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbPushThisBoulder]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Earth1, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [7,9]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[360] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,12]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[361] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,5]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[362] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: false
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 11
+    y: 3
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: StrengthBoulder
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: true
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW (8)
+        direction: 2
+        opacity: 255
+        pattern: 1
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbPushThisBoulder]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Earth1, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [7,9]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[360] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,12]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[361] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,5]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[362] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: false
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 13
+    y: 4
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: EV005
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 377, 12, 16, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$game_map.refresh]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 12
+    y: 14
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: StrengthBoulder
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: true
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW (8)
+        direction: 2
+        opacity: 255
+        pattern: 1
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbPushThisBoulder]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Earth1, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [7,9]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[360] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,12]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[361] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,5]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[362] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: false
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 7
+    y: 7
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: StrengthBoulder
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: true
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW (8)
+        direction: 2
+        opacity: 255
+        pattern: 1
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbPushThisBoulder]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Earth1, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [7,9]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[360] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,12]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[361] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,5]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[362] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: false
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 13
+    y: 19
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: StrengthBoulder
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: true
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW (8)
+        direction: 2
+        opacity: 255
+        pattern: 1
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbPushThisBoulder]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Earth1, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [7,9]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[360] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,12]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[361] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [HOLE 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['hpos = [13,5]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['xpos = $game_map.events[@event_id].x']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['ypos = $game_map.events[@event_id].y']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [' if xpos == hpos[0] && ypos == hpos[1]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_switches[362] = true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_self_switches[[426,@event_id,"A"]]=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   pbSEPlay("Wind1",80)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['   $game_map.need_refresh=true']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: false
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 11
+    y: 21
+  9: !ruby/object:RPG::Event
+    id: 9
+    name: Trainer(1)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW024
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:PICNICKER)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 249, p: [!ruby/object:RPG::AudioFile {name: spotted_ace, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['We go through rigorous training under Clair. I can''t afford ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to lose.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(PBTrainers::COOLTRAINER_F,"Francine",_I("Aww... I lost..."),false,0,false)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 24, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW024
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Whew... I'll have to rethink my training...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 9
+    y: 15
+  10: !ruby/object:RPG::Event
+    id: 10
+    name: EV010
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: true
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &1 !ruby/object:RPG::MoveCommand {code: 14, parameters: [0, 0]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 360, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 377, 7, 15, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 377, 6, 15, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$game_map.refresh]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: true
+      trigger: 1
+      walk_anime: true
+    x: 7
+    y: 9
+  11: !ruby/object:RPG::Event
+    id: 11
+    name: EV011
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['if $game_switches[987]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [gymArray = pbGet(151)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [else]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [gymArray = GYM_TYPES_ARRAY]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [currentGym = pbGet(152)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['typeIndex = gymArray[currentGym]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [type = PBTypes.getName(typeIndex)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['$game_variables[5] = type']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['It''s a painting of a rare \V[5]-type Pokémon.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 6
+    y: 2
+  12: !ruby/object:RPG::Event
+    id: 12
+    name: EV012
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['if $game_switches[987]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [gymArray = pbGet(151)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [else]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [gymArray = GYM_TYPES_ARRAY]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [currentGym = pbGet(152)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['typeIndex = gymArray[currentGym]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [type = PBTypes.getName(typeIndex)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['$game_variables[5] = type']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['It''s a painting of a rare \V[5]-type Pokémon.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 8
+    y: 2
+  13: !ruby/object:RPG::Event
+    id: 13
+    name: EV013
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['if $game_switches[987]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [gymArray = pbGet(151)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [else]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [gymArray = GYM_TYPES_ARRAY]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [end]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [currentGym = pbGet(152)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['typeIndex = gymArray[currentGym]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [type = PBTypes.getName(typeIndex)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['$game_variables[5] = type']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['It''s a painting of a rare \V[5]-type Pokémon.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 10
+    y: 2
+  20: !ruby/object:RPG::Event
+    id: 20
+    name: EV020
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: true
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &2 !ruby/object:RPG::MoveCommand {code: 14, parameters: [0, 0]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 361, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 377, 16, 17, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 377, 15, 17, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$game_map.refresh]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: true
+      trigger: 1
+      walk_anime: true
+    x: 13
+    y: 12
+  21: !ruby/object:RPG::Event
+    id: 21
+    name: EV021
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: true
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 362
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &3 !ruby/object:RPG::MoveCommand {code: 14, parameters: [0, 0]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 362, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 377, 17, 9, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$game_map.refresh]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: true
+      trigger: 1
+      walk_anime: true
+    x: 13
+    y: 5
+  28: !ruby/object:RPG::Event
+    id: 28
+    name: Trainer(1)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW023
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbTrainerIntro(:PICNICKER)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 249, p: [!ruby/object:RPG::AudioFile {name: spotted_ace, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [Kernel.pbNoticePlayer(get_character(0)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['My chance of losing? Not even one percent!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'pbTrainerBattle(PBTrainers::COOLTRAINER_M,"Cody",_I("Rats!"),false,0,false)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbTrainerEnd]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 24, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 3
+      step_anime: false
+      through: false
+      trigger: 2
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW023
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [I know my shortcomings now. Thanks for showing me!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 8
+    y: 4
+height: 30
+tileset_id: 25
+width: 20

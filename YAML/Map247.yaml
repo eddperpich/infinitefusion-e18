@@ -1,0 +1,1479 @@
+--- !ruby/object:RPG::Map
+autoplay_bgm: true
+autoplay_bgs: false
+bgm: !ruby/object:RPG::AudioFile
+  name: Goldenrod City
+  pitch: 100
+  volume: 100
+bgs: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+data: !ruby/object:Table
+  dim: 3
+  x: 30
+  y: 15
+  z: 3
+  data:
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0034 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 0038 0030 0030 0030 0030
+  - 0030 0030 0030 0048 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0396 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 039e 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 118e 118f 118e 118f 118e 118f 118e 118f 118e 118f 118e 118f 118e 118f 118e 118f 118e 118f 118e 118f 118e 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 1186 1187 1186 1187 1186 1187 1186 1187 1186 1187 1186 1187 1186 1187 1186 1187 1186 1187 1186 1187 1186 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 118e 118f 118e 118f 118e 0762 0762 0762 0762 118f 118e 118f 0053 0051 0051 0051 0051 0051 0051 0051 0051 0039 0030 0030 0030 0030
+  - 0030 0030 0030 0048 1186 1187 1186 1187 1186 0762 0762 0762 0762 1187 1186 1187 005c 0306 0306 0306 0306 0306 0306 0306 0306 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 118e 118f 118e 118f 118e 0762 0762 0762 0762 118f 118e 118f 0305 030e 030e 030e 030e 030e 030e 030e 030e 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 1186 1187 1186 1187 1186 0762 0762 0762 0762 1187 1186 1187 030d 02b4 02b4 02b4 02b4 02b4 02b4 02b4 02b4 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 118e 118f 118e 118f 118e 0762 0762 0762 0762 118f 118e 118f 118e 02b4 02b4 02b4 02b4 02b4 02b4 02b4 02b4 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0048 1186 1187 1186 1187 1186 1187 1186 1187 1186 1187 1186 1187 1186 02b4 02b4 02b4 02b4 02b4 02b4 02b4 02b4 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0032 0044 0044 0044 0044 0044 0044 0044 0044 0044 0044 0044 0054 118e 02b4 02b4 02b4 02b4 02b4 02b4 02b4 02b4 0040 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0032 0044 0044 0044 0044 0044 0044 0044 0044 0044 0031 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 1f8f 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 03f1 03f2 03f3 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 1f97 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 03f9 03fa 03fb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 03d9 03da 03db 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0401 0402 0403 0000 0758 075a 075a 075a 075a 075b 0000 0000 0000 0000 0000 0000 0000 0000 03e1 03e2 03e3 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0409 040a 040b 0000 0760 073d 2108 210a 073d 0763 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0760 073d 2118 211a 073d 0763 0000 0000 0000 0000 0000 04c8 04c9 04c9 04c9 04c9 04ca 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0760 0000 0000 0000 0000 0763 0000 0000 1f8f 06ba 06bb 04d0 04d1 04d1 04d1 04d1 04d2 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0760 073d 2108 210a 073d 0763 0000 0000 1f97 06c2 06c3 0000 0000 0510 0511 0736 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0760 073d 2118 211a 073d 0763 0000 0000 0000 073d 0000 0000 0736 0510 0511 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0768 076a 076a 076a 076a 076b 0000 0000 0000 0000 0000 0000 0000 0518 0519 0736 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0a0b 0a0c 0000 0000 0000 0a0b 0a0c 0000 0000 0000 0a0b 0a0c 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0a13 0a14 0680 0680 0680 0a13 0a14 0000 0000 0000 0a13 0a14 0000 0651 0651 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0688 0688 0688 0000 0000 0000 0000 0000 0000 0000 0000 0659 0659 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0651 0000 0000 0000 0000 0000 09df 0000 0000 0000 0000 0000 0651 0651 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0659 06ba 06bb 0000 0000 0000 09e7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 2309 06c2 06c3 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 04c8 04c9 04c9 04c9 04c9 04ca 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 2311 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 04d0 0651 0508 0509 04d1 04d2 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 2319 06ba 06bb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0659 07c3 0511 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0651 06c2 06c3 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0510 07c3 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0659 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0518 0519 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+encounter_list: []
+encounter_step: 30
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 246, 22, 5, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 23
+    y: 5
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [2F GUESS THAT FUSION]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 20
+    y: 3
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: EV003
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Anywhere, Anytime\nPOKEMON Radio']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 16
+    y: 9
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: EV004
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW075
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [This is where we record the Guess That Fusion Quiz show.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "Q29udGVzdGFudHMgaGF2ZSB0byBndWVzcyBhIHNlcmllcyBvZiBmdXNlZCBQ\nb2vDqW1vbiA="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [from images and they earn points for every correct answer.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['The show is just about to start. Would you like to join us ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['as a contestant?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [6, -1, 6]}
+      - !ruby/object:RPG::EventCommand
+        i: 2
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &1 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &2 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 2, c: 509, p: [*1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 509, p: [*2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &3 !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*3]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [Great! We're live in 3..\.. 2..\.. 1...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [15]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 249, p: [!ruby/object:RPG::AudioFile {name: spotted_sport, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &4 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*4]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &5 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Ladies and gentlemen, welcome to the most electrifying ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [game show on the airwaves! It's time for the "Guess That]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Fusion Quiz Show"!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['I''m your host, Mary, and today we have \PN joining us as a ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [first-time contestant.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [Let's see how they fare in this 3-rounds game!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Without further ado, let the game begin!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 104, p: [2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [Audio.me_stop]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::AudioFile {name: game_corner_stadium, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['quiz = FusionQuiz.new(:REGULAR)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [quiz.start_quiz(3)]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [new_pts = quiz.get_score]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [current_pts = pbGet(VAR_RADIO_POINTS)]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['pbSet(VAR_RADIO_POINTS,current_pts+new_pts)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['pbSet(1,new_pts)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['pbSet(3,quiz)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 104, p: [2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 249, p: [!ruby/object:RPG::AudioFile {name: spotted_sport, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [12, pbGet(3).player_abandonned == true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [Player forfeited]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['Well that''s the show, folks. Make sure to tune in next time ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [for some more Guess The Fusion!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 241, p: [!ruby/object:RPG::AudioFile {name: Goldenrod City, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [Audio.me_stop]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [3, 3, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['And that''s the game folks! \PN finished with a total of ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\V[1] points.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 266, 0, 500, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [Not bad at all for a first time contestant!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['It wasn''t quite the astounding performance that you ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['folks were uhoping for, but everyone has to start']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [somewhere!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [Join us next time for some for Guess That Fusion fun!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [Audio.me_stop]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::AudioFile {name: Goldenrod City, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &6 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*6]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &7 !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*7]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Thanks for playing! You can exchange your points for some ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [prizes with my assistant over there.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Also, if you''d like to join us again, we have a \C[1]special ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['prize \C[0] for anyone who can score more than 5,000']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [points in a single game.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [I hope you're up for the challenge!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Join us whenever you can. We have a ton of great ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [prizes for our contestants!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 104, p: [2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::AudioFile {name: Goldenrod City, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [3, 3, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW075
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Hey! Would you like to take part in the Guess That Fusion ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Quiz again?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['This time we have a \C[1]special prize\C[0] for anyone ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['who manages to break 5,000 points in a single game!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Would you like to join us?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['How many rounds would you like to play? You''ll have to do ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [a 5-rounds game if you want a chance at winning the]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\C[1]special prize\C[0]!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[3 rounds, 5 rounds, Never mind], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 3 rounds]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1, 1, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 5 rounds]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1, 1, 0, 0, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Never mind]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['Join us whenever you can for a chance to win the ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['\C[1]special prize\C[0]!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [3, 3, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [6, -1, 6]}
+      - !ruby/object:RPG::EventCommand
+        i: 2
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &8 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &9 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 2, c: 509, p: [*8]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 509, p: [*9]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &10 !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*10]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Fantastic! Okay, we''re live in 3..\.. 2..\.. 1...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [15]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 249, p: [!ruby/object:RPG::AudioFile {name: spotted_sport, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &11 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*11]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &12 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*12]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Ladies and gentlemen, welcome to the most electrifying ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [game show on the airwaves! It's time for the "Guess That]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Fusion Quiz Show"!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['I''m your host, Mary, and today we have \PN who''s joining ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [us as a returning contestant.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Let''s see how they fare in this \V[1]-rounds game!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Without further ado, let the game begin!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [Audio.me_stop]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::AudioFile {name: game_corner_stadium, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 104, p: [2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [nb_rounds=pbGet(1)]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['quiz = FusionQuiz.new(:REGULAR)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [quiz.start_quiz(nb_rounds)]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [new_pts = quiz.get_score]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [current_pts = pbGet(VAR_RADIO_POINTS)]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['pbSet(VAR_RADIO_POINTS,current_pts+new_pts)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['pbSet(1,new_pts)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['pbSet(3,quiz)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [12, pbGet(3).player_abandonned == true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [Player forfeited]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['Well that''s the show, folks. Make sure to tune in next time ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [for some more Guess The Fusion!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 241, p: [!ruby/object:RPG::AudioFile {name: Goldenrod City, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [Audio.me_stop]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [3, 3, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 104, p: [2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 249, p: [!ruby/object:RPG::AudioFile {name: spotted_sport, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['And that''s the game folks! \PN finished with a total of ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\V[1] points.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 266, 0, 500, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [Another great performance by \PN!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 1, 0, 5000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['Amazingly! \PN managed to top 5,000 points so they''ve ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['earned themselves the \C[1]special prize\C[0]!']}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &13 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*13]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ["Kernel.pbReceiveItem(:BOXLINK)\t"]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &14 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*14]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [!binary "VGhhdCdzIHJpZ2h0ISBUaGUgc3BlY2lhbCBwcml6ZSBpcyBhIFBva8OpbW9u\nIEJveCBMaW5rISBJdCdzIA=="]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [!binary "YSBwb3J0YWJsZSBkZXZpY2UgdGhhdCBhbGxvd3MgeW91IHRvIHVzZSB0aGUg\nUG9rw6ltb24="]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Storage from anywhere. How lucky!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 123, p: [B, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['You didn''t manage to score over 5,000 points so I cannot ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['give you the special prize, but you can still spend your']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [points with my associate for our smaller prizes.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['You can''t win all them! Let''s hope \PN''s next attempt goes ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [a bit better!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [Join us next time for some for Guess That Fusion fun!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 104, p: [2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::AudioFile {name: Goldenrod City, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [Audio.me_stop]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &15 !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*15]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &16 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*16]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Thanks for playing! You can exchange your points for some ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [prizes with my assistant over there.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Join us whenever you can. We have a ton of great ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [prizes for our contestants!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 104, p: [2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::AudioFile {name: Goldenrod City, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [3, 3, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: B
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW075
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Hey! Would you like to take part in the Guess That Fusion ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Quiz again?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Which difficulty would you like to try? In Advanced you ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['don''t get multiple choices, but you''ll win much more points']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [when you get it right!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Regular, Advanced, Never mind], 3]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Regular]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbSet(2,:REGULAR)']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Advanced]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbSet(2,:ADVANCED)']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Never mind]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['Join us whenever you can. We have a ton of great ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [prizes for our contestants!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [3, 3, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Great, and how many rounds would you like to play? ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[3 rounds, 5 rounds, 10 rounds, Never mind], 4]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 3 rounds]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1, 1, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 5 rounds]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1, 1, 0, 0, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 10 rounds]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1, 1, 0, 0, 10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, Never mind]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['Join us whenever you can. We have a ton of great ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [prizes for our contestants!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [3, 3, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [6, -1, 6]}
+      - !ruby/object:RPG::EventCommand
+        i: 2
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &17 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &18 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 2, c: 509, p: [*17]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 509, p: [*18]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &19 !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*19]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Fantastic! Okay, we''re live in 3..\.. 2..\.. 1...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [15]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 249, p: [!ruby/object:RPG::AudioFile {name: spotted_sport, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &20 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*20]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &21 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*21]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Ladies and gentlemen, welcome to the most electrifying ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [game show on the airwaves! It's time for the "Guess That]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Fusion Quiz Show" once again!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['I''m your host, Mary, and today we have \PN who''s joining ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [us as a returning contestant.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Let''s see how they fare in this \V[1]-rounds game!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Without further ado, let the game begin!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [Audio.me_stop]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::AudioFile {name: game_corner_stadium, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 104, p: [2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [nb_rounds=pbGet(1)]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [difficulty = pbGet(2)]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [quiz = FusionQuiz.new(difficulty)]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [quiz.start_quiz(nb_rounds)]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [new_pts = quiz.get_score]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [current_pts = pbGet(VAR_RADIO_POINTS)]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['pbSet(VAR_RADIO_POINTS,current_pts+new_pts)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['pbSet(1,new_pts)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['pbSet(3,quiz)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 104, p: [2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 249, p: [!ruby/object:RPG::AudioFile {name: spotted_sport, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [12, pbGet(3).player_abandonned == true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [Player forfeited]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['Well that''s the show, folks. Make sure to tune in next time ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [for some more Guess The Fusion!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 241, p: [!ruby/object:RPG::AudioFile {name: Goldenrod City, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [Audio.me_stop]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [3, 3, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['And that''s the game folks! \PN finished with a total of ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['\V[1] points.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 266, 0, 1000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [Another great performance by \PN!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 1, 0, 5000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['Here''s a bonus prize for obtaining over 5,000 points in a ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [single game!]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &22 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*22]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ["Kernel.pbReceiveItem(:STARDUST)\t"]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &23 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*23]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 1, 0, 8000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['And here''s a bonus prize for obtaining over 8,000 points in ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [a single game!]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &24 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*24]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ["Kernel.pbReceiveItem(:MAXREVIVE)\t"]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &25 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*25]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 1, 0, 12000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['And here''s another bonus prize for obtaining over 12,000 ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [points in a single game!]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &26 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*26]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ["Kernel.pbReceiveItem(:INCUBATOR)\t"]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &27 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*27]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 1, 0, 25000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['I''ve never seen anyone obtain such a high score in the ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [history of the game!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['Here''s our grand prize for obtaining over 25,000 ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [points in a single game!]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &28 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*28]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ["Kernel.pbReceiveItem(:MASTERBALL)\t"]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &29 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*29]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 1, 0, 35000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['Ladies and gentlemen, \PN surpassed what I even thought ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [was possible!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['Here''s another grand prize for obtaining 35,000 points in a ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [single game!]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &30 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*30]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ["Kernel.pbReceiveItem(:MASTERBALL)\t"]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &31 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*31]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 1, 0, 40000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['...And another one for a perfect game on the highest ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [difficulty! That's no small achievement!]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &32 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*32]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ["Kernel.pbReceiveItem(:MASTERBALL)\t"]}
+      - !ruby/object:RPG::EventCommand
+        i: 3
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &33 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 3, c: 509, p: [*33]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['You can''t win all them! Let''s hope \PN''s next attempt goes ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [a bit better!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [Join us next time for some more Guess That Fusion fun!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 104, p: [2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::AudioFile {name: Goldenrod City, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [Audio.me_stop]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &34 !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*34]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Thanks for playing! You can exchange your points for some ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [prizes with my assistant over there.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Join us whenever you can. We have a ton of great ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [prizes for our contestants!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 104, p: [2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::AudioFile {name: Goldenrod City, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [3, 3, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 20
+    y: 10
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: EV005
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW (37)
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 266, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Would you like to trade your Radio Points for some of our ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['prizes?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['setPrice(:ETHER,1500)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['setPrice(:MAXETHER,3000)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['setPrice(:ELIXIR,5000)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['setPrice(:MAXELIXIR,7500)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['setPrice(:PPUP,10000)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['setPrice(:PPMAX,15000)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['setPrice(:INCUBATOR,35000)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [pbVariablePokemonMart(]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['[:ETHER,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [':MAXETHER,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [':ELIXIR,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [':MAXELIXIR,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [':PPUP,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [':PPMAX,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [':INCUBATOR],266)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['This is where we host the famous "Guess That Fusion" ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [radio show.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Contestants can exchange their points for various prizes ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [too.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 23
+    y: 9
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: EV006
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [It's the radio schedule for the next month.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 5
+    y: 10
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: EV007
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['You can hear the host''s voice coming both from the radio ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and the other side of the room at the same time!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 10
+    y: 6
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: EV008
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [It's playlist full of great tunes!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 5
+    y: 7
+  9: !ruby/object:RPG::Event
+    id: 9
+    name: EV009
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['It''s the fusion quiz''s dashboard. What would you like to ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['view?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Statistics, Scoring system, Never mind], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Statistics]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Fusion Quiz statistics for \PN:']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Numbers of games played: \C[1]\V[268]\n\C[0]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Highest score: \C[1]\V[267]\n\C[0]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Total points cumulated: \C[1]\V[269]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Scoring system]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Each question is worth a base amount of points depending ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [on how difficult the question is and the selected difficulty.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['On the regular difficulty, this base amount is 300 points for ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [guessing the body and 400 points for guessing the head]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "d2hlbiB0aGV5J3JlIG9ic2N1cmVkIGFuZCAxMDAgcG9pbnRzIHdoZW4gdGhl\nIFBva8OpbW9u"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [is visible.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['On the advanced difficulty, the base amount is 500 and 600 ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [when obscured for the body and head respectively and 200]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [when fully visible.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['This base amount of points is then multiplied by a set ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [amount that increases with every round.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['On top of that, the points earned are multiplied by a set ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [amount that depends on your current streak. The higher the]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['streak, the higher the multiplier!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Never mind]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 17
+    y: 9
+  10: !ruby/object:RPG::Event
+    id: 10
+    name: EV010
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 744, 22, 5, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 5
+    y: 5
+  11: !ruby/object:RPG::Event
+    id: 11
+    name: EV011
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW046
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['The Guess That Fusion Quiz show is our most popular ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [show.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [People tune in from all across the region to listen to it!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 9
+    y: 7
+  12: !ruby/object:RPG::Event
+    id: 12
+    name: EV012
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW045
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['There''s a great prize for whoever can score more than ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['5,000 points in a single game.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['I''m not allowed to say what it is, but it''s super useful for ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "UG9rw6ltb24gdHJhaW5lcnMh"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 12
+    y: 9
+height: 15
+tileset_id: 25
+width: 30
