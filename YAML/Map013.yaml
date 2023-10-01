@@ -1,0 +1,604 @@
+--- !ruby/object:RPG::Map
+autoplay_bgm: false
+autoplay_bgs: false
+bgm: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 100
+bgs: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+data: !ruby/object:Table
+  dim: 3
+  x: 20
+  y: 15
+  z: 3
+  data:
+  - 0030 0030 0034 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 004c 0038 0030 0030 0030
+  - 0030 0030 0048 2263 2264 2264 2264 2264 2264 2264 2264 2264 2264 2264 2264 2265 0040 0030 0030 0030
+  - 0030 0030 0048 226b 226c 226c 226c 226c 226c 226c 226c 226c 226c 226c 226c 226d 0040 0030 0030 0030
+  - 0030 0030 0048 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 0040 0030 0030 0030
+  - 0030 0030 0048 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 0040 0030 0030 0030
+  - 0030 0030 0048 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 0040 0030 0030 0030
+  - 0030 0030 0048 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 0040 0030 0030 0030
+  - 0030 0030 0048 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 0040 0030 0030 0030
+  - 0030 0030 0048 2153 2153 2153 2153 2214 2214 2214 2214 2214 2153 2153 2153 2153 0040 0030 0030 0030
+  - 0030 0030 0048 2153 2153 2153 2153 2214 2214 2214 2214 2214 2153 2153 2153 2153 0040 0030 0030 0030
+  - 0030 0030 0048 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 0040 0030 0030 0030
+  - 0030 0030 0048 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 2153 0040 0030 0030 0030
+  - 0030 0030 0032 0044 0044 0044 0044 0044 0044 0044 0044 0044 0044 0044 0044 0044 0031 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 22fd 03f0 0000 0000 233a 233b 05c6 05c7 047c 047d 0000 0000 0000 0000 0000
+  - 0000 0000 03f8 03f1 03f2 2305 0400 2338 2339 2342 2343 05ce 05cf 0484 0485 22c2 0000 0000 0000 0000
+  - 0000 0000 0400 03f9 03fa 0000 0400 2340 2341 234a 234b 22cb 22cc 0000 0000 22ca 0000 0000 0000 0000
+  - 0000 0000 0408 0401 0402 220b 220c 220c 220c 220c 220c 220c 220c 220c 220d 0000 0000 0000 0000 0000
+  - 0000 0000 23cf 240c 040a 221b 221c 221c 221c 221c 221c 221c 221c 221c 221d 0000 0000 0000 0000 0000
+  - 0000 0000 0000 2405 2407 0000 2405 2406 2407 0000 2405 2406 2406 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 220b 220c 220c 220c 220c 220c 220d 0000 0000 234d 0000 0000 0000 0000
+  - 0000 0000 0000 07b6 0000 0000 2213 0000 0000 0000 0000 0000 2215 0000 0000 234d 0000 0000 0000 0000
+  - 0000 0000 0000 07be 0000 0000 2213 0000 0000 0000 0000 0000 2215 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 22ca 0000 0000 221b 221c 221c 221c 221c 221c 221d 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 2177 2177 2177 2177 2177 2186 0000 2187 2177 2177 2177 2177 2177 2177 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 2177 2177 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 23fc 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 23ff 01e2 23fe 23fe 23ff 0000 23fd 23fe 23ff 0000 0000 233d 0000 0000 0000 0000
+  - 0000 0000 0000 22c2 0000 01ea 0000 0000 0000 0000 0000 0000 2407 0000 0000 2345 0000 0000 0000 0000
+  - 0000 0000 0000 22ca 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 233d 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 2345 0000 0000 0000 0000
+  - 0000 0000 0000 22c2 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 234d 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 2355 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+encounter_list: []
+encounter_step: 30
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 12, 19, 8, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 9
+    y: 11
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW038
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, Kernel.pbDayCareDeposited==0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "SSdtIHRoZSBEYXktQ2FyZSB3b21hbi4gV2UgY2FuIHJhaXNlIFBva8OpbW9u\nIGZvciA="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [you.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "V291bGQgeW91IGxpa2UgdXMgdG8gcmFpc2UgeW91ciBQb2vDqW1vbj8="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [12, $Trainer.pokemonCount<=1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [!binary "T2g/ICBCdXQgeW91IG9ubHkgaGF2ZSBvbmUgUG9rw6ltb24gd2l0aCB5b3Uu"]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [!binary "WW91IGNhbid0IGdvIG9mZiB3aXRob3V0IGEgUG9rw6ltb24uICBDb21lIGJh\nY2sg"]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [another time.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [!binary "V2hpY2ggUG9rw6ltb24gc2hvdWxkIHdlIHJhaXNlIGZvciB5b3U/"]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbChooseNonEggPokemon(1,3)']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 1, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['Oh, fine, then.\nCome again.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [12, '!pbCheckAble(pbGet(1))']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [!binary "SWYgeW91IGxlYXZlIG1lIHRoYXQgUG9rw6ltb24sIHdoYXQgYXJlIHlvdSBn\nb25uYSA="]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['battle with?']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [Come back another time.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [pbDayCareDeposit(pbGet(1))]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['Fine, we''ll raise your \v[3] for a while.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [Come back for it later.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 118, p: [RaiseAnother]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [!binary "V2UgY2FuIHJhaXNlIHR3byBvZiB5b3VyIFBva8OpbW9uLiAgV291bGQgeW91\nIGxpa2Ug"]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['us to raise another?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $Trainer.pokemonCount<=1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [!binary "T2g/ICBCdXQgeW91IG9ubHkgaGF2ZSBvbmUgUG9rw6ltb24gd2l0aCB5b3Uu"]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [!binary "WW91IGNhbid0IGdvIG9mZiB3aXRob3V0IGEgUG9rw6ltb24uICBDb21lIGJh\nY2sg"]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [another time.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [!binary "V2hpY2ggUG9rw6ltb24gc2hvdWxkIHdlIHJhaXNlIGZvciB5b3U/"]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbChooseNonEggPokemon(1,3)']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 1, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [Very good.  Come again.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, '!pbCheckAble(pbGet(1))']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [!binary "SWYgeW91IGxlYXZlIG1lIHRoYXQgUG9rw6ltb24sIHdoYXQgYXJlIHlvdSBn\nb25uYSA="]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['battle with?']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [Come back another time.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: [pbDayCareDeposit(pbGet(1))]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['Fine, we''ll raise your \v[3] for a while.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [Come back for it later.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [2, A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 119, p: [TakeBack]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [Very good.  Come again.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['Oh, fine, then.\nCome again.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['Ah, it''s you!  Good to see you.  Now, about your ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "UG9rw6ltb24uLi4="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [12, 'pbDayCareGetLevelGain(0,3,4) && $game_variables[4]>0']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['By level, your \v[3] has grown by about \v[4].']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [12, 'pbDayCareGetLevelGain(1,3,4) && $game_variables[4]>0']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['By level, your \v[3] has grown by about \v[4].']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [12, Kernel.pbDayCareDeposited==1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: [RaiseAnother]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 118, p: [TakeBack]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [!binary "RG8geW91IHdhbnQgeW91ciBQb2vDqW1vbiBiYWNrPw=="]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 118, p: [TakeBackChosen]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $Trainer.party.length>=6]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [!binary "WW91ciBQb2vDqW1vbiB0ZWFtIGlzIGZ1bGwuICBNYWtlIHJvb20sIHRoZW4g\nY29tZSA="]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [see me.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: [pbDayCareChoose(]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 655, p: ['_I("Which one do you want back?"),1)']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 1, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [Very good.  Come again.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbDayCareGetDeposited(pbGet(1),3,4)']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\GIf you want your \v[3] back, it will cost $\v[4].']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [5, 5, 0, 7, 2]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 5, 1, 4, 4]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [\GYou don't have enough money...]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 125, p: [1, 1, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: [pbDayCareWithdraw(pbGet(1))]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [!binary "XEdFeGNlbGxlbnRcbkhlcmUncyB5b3VyIFBva8OpbW9uLg=="]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\PN took \v[3] back from the Day-Care lady.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, Kernel.pbDayCareDeposited==1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: ['Do you want to take back the other one, too?']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 119, p: [TakeBackChosen]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 101, p: [Very good.  Come again.]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [Very good.  Come again.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [Very good.  Come again.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [Very good.  Come again.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 9
+    y: 6
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: EV003
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [pbPokeCenterPC]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 3
+      walk_anime: true
+    x: 5
+    y: 6
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: EV004
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW014
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "Tm9ib2R5IGhhcyBmaWd1cmVkIG91dCBob3cgdG8gbWFrZSBmdXNlZCBQb2vD\nqW1vbiBicmVlZCA="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['yet, but someday we might!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 1
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 13
+    y: 8
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: EV005
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 214, 13, 21, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 13
+    y: 2
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: EV006
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 214, 13, 21, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 14
+    y: 2
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: EV007
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 214, 6, 14, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 4
+    y: 4
+height: 15
+tileset_id: 25
+width: 20
