@@ -1,0 +1,1254 @@
+--- !ruby/object:RPG::Map
+autoplay_bgm: true
+autoplay_bgs: false
+bgm: !ruby/object:RPG::AudioFile
+  name: New Bark Town
+  pitch: 100
+  volume: 100
+bgs: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+data: !ruby/object:Table
+  dim: 3
+  x: 20
+  y: 15
+  z: 3
+  data:
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0034 004c 0038 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0048 0367 0367 0367 0367 0367 0367 0367 0367 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0048 036f 036f 036f 036f 036f 036f 036f 036f 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0048 0377 0377 0377 0377 0377 0377 0377 0377 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0048 02b4 02b4 02b4 02b4 02b4 02b4 02b4 02b4 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0048 02b4 02b4 02b4 02b4 02b4 02b4 02b4 02b4 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0048 02b4 02b4 02b4 02b4 02b4 02b4 02b4 02b4 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0048 02b4 02b4 02b4 02b4 02b4 02b4 02b4 02b4 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0048 02b4 02b4 02b4 02b4 02b4 02b4 02b4 02b4 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0048 02b4 02b4 02b4 02b4 02b4 02b4 02b4 02b4 0040 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0032 0044 0044 0054 02b4 02b4 02b4 0052 0044 0031 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0032 0044 0044 0044 0031 0030 0030 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030 0030
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 2418 2419 241a 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 2420 2421 2422 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 04f0 04f1 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 04f8 04f9 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0500 0501 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 22b5 22b6 0651 0000 0000 0635 0645 0646 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 22bd 22be 0659 0000 0000 063d 064d 064e 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 22c1 0000 0000 22c1 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 069a 069b 069d 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+encounter_list: []
+encounter_step: 30
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 137, 12, 31, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 9
+    y: 12
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 137, 12, 31, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 10
+    y: 12
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: EV003
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 137, 12, 31, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 11
+    y: 12
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: EV004
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [A televised Poker tournament... Better get going.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 6
+    y: 5
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: EV005
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [A televised Poker tournament... Better get going.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 7
+    y: 5
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: Trainer(4)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW094
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [I'm not so good at battling. I like gambling better.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Do you want to play a money game with me?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['We''ll each put in $1000. Whoever wins collects it all, plus ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the difference. Sounds good to you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\GWhat do you say?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [C, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [D, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [7, 2000, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [\G\B \PN put in $1000]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 125, p: [1, 0, 1000]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [\G\B Gambler Dirk put in $1000]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [It'll be just like Blackjack.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['I''ll hand you cards and you have to get as close as ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['possible to 21, without getting over it.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [BLACKJACK MAIN LOOP]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['#NPC NAME']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: ['$game_variables[6] = "Tobey"']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: ['###################']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [Player lost]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [2, D, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [\GI won! Better luck next time!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 29, 1, 32, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 2, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 2, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [33, 33, 3, 0, 100]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\G\B \PN added $\V[33] for the difference.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [33, 33, 1, 0, 4000]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [44, 44, 1, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 125, p: [1, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\G\B Gambler Dirk collected $\V[33].']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [Let's play again sometime!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [33, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [Tie]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [2, C, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['Well since this was a tie, we''re both getting our money ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [back!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\G\B \PN got $1000!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 125, p: [0, 0, 1000]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\GLet's play again some time!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 123, p: [C, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 108, p: [Player won]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 29, 1, 32, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 0, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 2, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 0, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 2, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 3, 0, 100]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\B Gambler Dirk added $\V[33] for the difference.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 1, 0, 4000]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\B \PN collected $\V[33]!']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 125, p: [0, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [42, 42, 1, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [43, 43, 1, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\GLet's play again sometime!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\GI''m sorry, but you''re going to have at least $2000 to play ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [with me to account for the points bonus if I win!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['I suppose I probably shouldn''t be gambling with kids ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [anyhow.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: C
+        self_switch_valid: false
+        switch1_id: 93
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 42
+        variable_valid: true
+        variable_value: 5
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW094
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Hey how are you, champion?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Want to play a money game with me?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's play high stakes!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['We''ll each put in an amount and whoever loses has to pay ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the the initial bet multiplied by the difference!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\GWhat do you say?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\GHow much do you want to put in?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 112, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [39, 39, 0, 7, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 103, p: [38, 4]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 38, 1, 39, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 38, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['$0? Well ok, I suppose we can play just for fun!']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [\GYou can't bet an amount you don't have!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 413, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [C, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [D, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [39, 39, 0, 7, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 39, 1, 38, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\G\B \PN put in $\V[38]']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 125, p: [1, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\G\B Gambler Dirk put in $\V[38]']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['You know the rules, I''ll hand you cards and you have to get ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['as close as possible to 21, without getting over it.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [BLACKJACK MAIN LOOP]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['#NPC NAME']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: ['$game_variables[6] = "Tobey"']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [Player lost]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [2, D, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [\GI won! Better luck next time!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 29, 1, 32, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 2, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 2, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\G\B The difference is \V[33].']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\G\rThe initial bet of $\V[38] must be paid \V[33] ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [times.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [33, 33, 3, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\G\r \PN paid $\V[33]!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [44, 44, 1, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [41, 41, 1, 7, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [41, 41, 2, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 125, p: [1, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 41, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [41, 41, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 108, p: [Have a debt]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 39, 1, 33, 3]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 33, 0, 50000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: ['Ouch, that''s gotta hurt!']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [Let's play again sometimes! You're very ehm... Profitable!]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [\GLet's play again sometime!]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\G\r\PN didn't have enough money to pay...]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\GWhat!? You don''t have enough money to pay me!?']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [Then get ready to fight!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, 'pbTrainerBattle(PBTrainers::GAMBLER,"Tobey",_I("I saw this coming."),false,0,false)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: ['Alright, alright, we''ll play again sometime!']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 41, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [41, 41, 3, 0, -1]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 101, p: ['But you still have a debt of $\V[41] towards me, I won''t ']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 401, p: [forget it!]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [Tie]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [2, C, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['Well since this was a tie, we''re both getting our initial bet ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [back!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\B \PN got $\V[38]']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 125, p: [0, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\GLet's play again some time!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 123, p: [C, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 108, p: [Player won]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 29, 1, 32, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 0, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 2, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 0, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 2, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\B The difference is \V[33].']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\bThe initial bet of $\V[38] will be paid \V[33] ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [times!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [2, 2, 0, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [38, 38, 3, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [38, 38, 1, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 41, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: ['\GBut don''t forget that you still have a $\V[41] debt ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: ['towards me, so I''ll remove that from it.']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [41, 41, 2, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 41, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [41, 41, 3, 0, -1]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 101, p: ['\G\B \PN collected $\V[38]!']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [43, 43, 1, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 125, p: [0, 1, 41]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [41, 41, 3, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 101, p: ['Your debt toward me is still of $\V[41], don''t forget it!']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [41, 41, 3, 0, -1]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\B \PN collected $\V[38]!']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [43, 43, 1, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 125, p: [0, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 38, 0, 50000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [\GOhh that was harsh!]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\GLet's play again sometime!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [38, 38, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [\GYou can't bet an amount of money you don't have!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['I suppose I probably shouldn''t be gambling with kids ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [anyhow.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 10
+    y: 7
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: Trainer(4)
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: D
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW094
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [I'm not so good at battling. I like gambling better.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Do you want to play a money game with me?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['We''ll each put in $1000. Whoever wins collects it all, plus ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the difference. Sounds good to you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\GWhat do you say?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [C, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [D, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [7, 2000, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [\G\B \PN put in $1000]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 125, p: [1, 0, 1000]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [\G\B Gambler Dirk put in $1000]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [It'll be just like Blackjack.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['I''ll hand you cards and you have to get as close as ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['possible to 21, without getting over it.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [BLACKJACK MAIN LOOP]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['#NPC NAME']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: ['$game_variables[6] = "Dirk"']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: ['###################']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [Player lost]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [2, D, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [\GI won! Better luck next time!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 29, 1, 32, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 2, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 2, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [33, 33, 3, 0, 100]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\G\B \PN added $\V[33] for the difference.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [33, 33, 1, 0, 4000]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [44, 44, 1, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 125, p: [1, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\G\B Gambler Dirk collected $\V[33].']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [Let's play again sometime!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [33, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [Tie]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [2, C, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['Well since this was a tie, we''re both getting our money ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [back!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\G\B \PN got $1000!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 125, p: [0, 0, 1000]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\GLet's play again some time!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 123, p: [C, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 108, p: [Player won]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 29, 1, 32, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 0, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 2, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 0, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 2, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 3, 0, 100]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\B Gambler Dirk added $\V[33] for the difference.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 1, 0, 4000]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\B \PN collected $\V[33]!']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 125, p: [0, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [42, 42, 1, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [43, 43, 1, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\GLet's play again sometime!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\GI''m sorry, but you''re going to have at least $2000 to play ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [with me to account for the points bonus if I win!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['I suppose I probably shouldn''t be gambling with kids ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [anyhow.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: D
+        self_switch_valid: true
+        switch1_id: 93
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 42
+        variable_valid: true
+        variable_value: 5
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW094
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Hey how are you, champion?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Want to play a money game with me?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Let's play high stakes!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['We''ll each put in an amount and whoever loses has to pay ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the the initial bet multiplied by the difference!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\GWhat do you say?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['\GHow much do you want to put in?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 112, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [39, 39, 0, 7, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 103, p: [38, 4]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 38, 1, 39, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 38, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['$0? Well ok, I suppose we can play just for fun!']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [\GYou can't bet an amount you don't have!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 115, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 413, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [C, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [D, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [39, 39, 0, 7, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 39, 1, 38, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\G\B \PN put in $\V[38]']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 125, p: [1, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['\G\B Gambler Dirk put in $\V[38]']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['You know the rules, I''ll hand you cards and you have to get ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['as close as possible to 21, without getting over it.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['Okay, here''s your first card.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [29, 29, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [32, 32, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [87, 87, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 112, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [Player]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [0, 87, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [30, 30, 0, 2, 1, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 30, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[31] = ''Hearts''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 30, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[31] = ''Spades''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 30, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[31] = ''Diamonds''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 30, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[31] = ''Clubs''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [28, 28, 0, 2, 1, 13]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 28, 0, 11, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [29, 29, 1, 0, 10]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [29, 29, 1, 1, 28]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 28, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[28] = ''Ace''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 28, 0, 11, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[28] = ''Jack''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 28, 0, 12, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[28] = ''Queen''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 28, 0, 13, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[28] = ''King''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\b\PN gets the \V[28] of \V[31]']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['(total : \V[29])']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [Gambler]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, '$game_variables[32]<=14 || (($game_variables[29]>=17 && $game_variables[29]<=21) && ($game_variables[32] < pbGet(29)) && !($game_variables[32]>=19))']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 108, p: [Continue]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [30, 30, 0, 2, 1, 4]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 30, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[31] = ''Hearts''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 30, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[31] = ''Spades''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 30, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[31] = ''Diamonds''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 30, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[31] = ''Clubs''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [28, 28, 0, 2, 1, 13]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 28, 0, 11, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [32, 32, 1, 0, 10]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [32, 32, 1, 1, 28]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 28, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[28] = ''Ace''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 28, 0, 11, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[28] = ''Jack''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 28, 0, 12, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[28] = ''Queen''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 28, 0, 13, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['$game_variables[28] = ''King''']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\rGambler Dirk gets the \V[28] of \V[31]']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['(total : \V[32])']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [Gambler Dirk stands.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 32, 0, 21, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 29, 0, 21, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 108, p: [Tie]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [It's a tie! Nobody wins!]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 123, p: [C, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 108, p: [Gambler wins]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [Gambler Dirk wins!]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 123, p: [D, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 29, 0, 21, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 108, p: [Player wins!]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [You win!]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 32, 0, 21, 3]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 101, p: [Gambler Dirk busts!]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 111, p: [1, 29, 0, 21, 3]}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 101, p: [You bust!]}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 101, p: [It's a tie! Nobody wins!]}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 123, p: [C, 0]}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 101, p: [You win!]}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 111, p: [1, 29, 0, 21, 3]}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 101, p: [You bust!]}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 111, p: [1, 32, 0, 21, 1]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 101, p: [Gambler Dirk busts!]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 101, p: [It's a tie! Nobody wins!]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 123, p: [C, 0]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 101, p: [Gambler Dirk wins!]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 123, p: [D, 0]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 101, p: ['Continue?']}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 102, p: [[Hit, Stand], 2]}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 402, p: [0, Hit]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 121, p: [87, 87, 1]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 402, p: [1, Stand]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 121, p: [87, 87, 0]}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 111, p: [1, 32, 0, 14, 2]}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 101, p: [Gambler Dirk stands.]}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 101, p: ['Your total is \V[29]']}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 101, p: ['Gambler Dirk''s total is \V[32]']}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 111, p: [1, 29, 1, 32, 3]}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 101, p: [You win!]}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 111, p: [1, 29, 1, 32, 0]}
+      - !ruby/object:RPG::EventCommand {i: 11, c: 101, p: [It's a tie...]}
+      - !ruby/object:RPG::EventCommand {i: 11, c: 123, p: [C, 0]}
+      - !ruby/object:RPG::EventCommand {i: 11, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 11, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 11, c: 101, p: [Gambler Dirk wins!]}
+      - !ruby/object:RPG::EventCommand {i: 11, c: 123, p: [D, 0]}
+      - !ruby/object:RPG::EventCommand {i: 11, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 11, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 10, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 9, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 8, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 7, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 413, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [Player lost]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [2, D, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [\GI won! Better luck next time!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 29, 1, 32, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 2, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 2, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\G\B The difference is \V[33].']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\G\rThe initial bet of $\V[38] must be paid \V[33] ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [times.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [33, 33, 3, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\G\r \PN paid $\V[33]!']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [44, 44, 1, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [41, 41, 1, 7, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [41, 41, 2, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 125, p: [1, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 41, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [41, 41, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 108, p: [Have a debt]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [1, 39, 1, 33, 3]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 33, 0, 50000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: ['Ouch, that''s gotta hurt!']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [Let's play again sometimes! You're very ehm... Profitable!]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [\GLet's play again sometime!]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\G\r\PN didn't have enough money to pay...]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\GWhat!? You don''t have enough money to pay me!?']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [Then get ready to fight!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [12, 'pbTrainerBattle(PBTrainers::GAMBLER,"Tobey",_I("I saw this coming."),false,0,false)']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: ['Alright, alright, we''ll play again sometime!']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 41, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [41, 41, 3, 0, -1]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 101, p: ['But you still have a debt of $\V[41] towards me, I won''t ']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 401, p: [forget it!]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [Tie]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [2, C, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['Well since this was a tie, we''re both getting our initial bet ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [back!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\B \PN got $\V[38]']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 125, p: [0, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\GLet's play again some time!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 123, p: [C, 1]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 108, p: [Player won]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 29, 1, 32, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 0, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 2, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 0, 1, 32]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [33, 33, 2, 1, 29]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\B The difference is \V[33].']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\bThe initial bet of $\V[38] will be paid \V[33] ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [times!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [2, 2, 0, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [38, 38, 3, 1, 33]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [38, 38, 1, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 41, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: ['\GBut don''t forget that you still have a $\V[41] debt ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: ['towards me, so I''ll remove that from it.']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 122, p: [41, 41, 2, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 111, p: [1, 41, 0, 0, 4]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [41, 41, 3, 0, -1]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 101, p: ['\G\B \PN collected $\V[38]!']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [43, 43, 1, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 125, p: [0, 1, 41]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [41, 41, 3, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 101, p: ['Your debt toward me is still of $\V[41], don''t forget it!']}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 122, p: [41, 41, 3, 0, -1]}
+      - !ruby/object:RPG::EventCommand {i: 6, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['\G\B \PN collected $\V[38]!']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [43, 43, 1, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 125, p: [0, 1, 38]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 111, p: [1, 38, 0, 50000, 1]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [\GOhh that was harsh!]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [\GLet's play again sometime!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [33, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [38, 38, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [\GYou can't bet an amount of money you don't have!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['I suppose I probably shouldn''t be gambling with kids ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [anyhow.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 18
+    y: 7
+height: 15
+tileset_id: 25
+width: 20

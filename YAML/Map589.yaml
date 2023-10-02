@@ -1,0 +1,688 @@
+--- !ruby/object:RPG::Map
+autoplay_bgm: true
+autoplay_bgs: false
+bgm: !ruby/object:RPG::AudioFile
+  name: sinjoh
+  pitch: 100
+  volume: 100
+bgs: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+data: !ruby/object:Table
+  dim: 3
+  x: 30
+  y: 40
+  z: 3
+  data:
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc 01bc
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 01ab 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01ad 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 01bd 01ab 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01ad 01bb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 01bd 01bd 01ab 01c4 01c4 01c4 01c4 01c4 01c4 01ad 01bb 01bb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 11f7 0000 01bd 01bd 01bd 0000 027a 027b 027c 027d 0000 01bb 01bb 01bb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 11fe 01b4 01b5 11ff 0000 01bd 01bd 01bd 0000 0282 0283 0284 0285 0000 01bb 01bb 01bb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 01bb 01bc 01bd 0000 0000 01bd 01bd 01bd 0000 028a 028b 028c 028d 0000 01bb 01bb 01bb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 01bb 01bc 01bd 0000 0000 01bd 01bd 01bd 0000 0292 0293 0294 0295 0000 01bb 01bb 01bb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 01bb 01bc 01bd 0000 0000 01bd 01bd 01bd 0000 029a 029b 029c 029d 0000 01bb 01bb 01bb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 01bb 01bc 01bd 0000 0000 01bd 01bd 01cb 01b5 0000 0000 0000 0000 01b3 01cb 01bb 01bb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 11e7 0000 01bd 11f6 11f7 01bd 01cb 01b5 01bd 0000 0000 0000 0000 01bb 01b3 01cb 01bb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 120f 0000 01bd 11fe 11ff 01cb 01b5 01bd 01bd 2b94 2b95 2b96 2b97 01bb 01bb 01b3 01cb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 1207 01bc 01cb 01b5 0000 0000 01bd 01bd 01bd 0000 0000 0000 0000 01bb 01bb 01bb 0000 0000 01b3 01b4 01b4 01b4 01b4 01b4 01b4 01b5 0000 0000 0000 0000
+  - 120f 120e 120f 01bd 0000 0000 01bd 01bd 01bd 0000 0000 0000 0000 01bb 01bb 01bb 0000 0000 01bb 01b3 01b4 01b4 01b4 01b4 01b5 01bd 0000 0000 0000 0000
+  - 1207 1206 1207 01bd 0000 0000 01bd 01bd 01bd 0000 0000 0000 0000 01bb 01bb 01bb 0000 0000 01bb 01bb 11f6 11f7 11f6 11f7 01bd 01bd 0000 0000 0000 0000
+  - 120f 120e 120f 01bd 0000 0000 01bd 01bd 01bd 0000 0000 0000 0000 01bb 01bb 01bb 0000 0000 01bb 01bb 11fe 11ff 11fe 11ff 01bd 01bd 0000 0000 0000 0000
+  - 1207 1206 1207 01bd 0000 0000 01bd 01bd 01bd 2b94 2b95 2b96 2b97 01bb 01bb 01bb 0000 0000 01bb 01c3 01c4 01c4 01c4 01c4 01c5 01bd 0000 0000 0000 0000
+  - 120f 120e 120f 01bd 0000 0000 01bd 01bd 01bd 0000 0000 0000 0000 01bb 01bb 01bb 0000 0000 01c3 01c4 01c4 01c4 01c4 01c4 01c4 01c5 0000 0000 0000 0000
+  - 1207 1206 1207 01bd 0000 0000 01bd 01bd 01bd 0000 0000 0000 0000 01bb 01bb 01bb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 120f 120e 120f 01bd 0000 0000 01bd 01bd 01bd 0000 0000 0000 0000 01bb 01bb 01c3 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01ad 0000 0000 0000 0000
+  - 1207 1206 1207 01bd 0000 0000 01bd 01bd 01bd 0000 0000 0000 0000 01bb 01c3 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01ad 01bb 0000 0000 0000 0000
+  - 120f 120e 120f 01bd 0000 0000 01bd 01bd 01bd 0000 0000 0000 0000 01c3 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01c4 01ad 01bb 01bb 0000 0000 0000 0000
+  - 0000 0000 0000 01bd 0000 0000 01bd 01bd 01bd 0000 0000 0000 0000 0000 0000 0000 0000 0000 2048 2049 204a 204b 204c 01bb 01bb 01bb 0000 0000 0000 0000
+  - 0000 0000 0000 01bd 0000 0000 01bd 01bd 01bd 0000 0000 0000 0000 0000 0000 0000 0000 0000 2050 2051 2052 2053 2054 01bb 01bb 01bb 0000 0000 0000 0000
+  - 01c4 01c4 01c4 01c5 0000 0000 01bd 01bd 01cd 01b4 01b4 01b5 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 01bb 01bb 01bb 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 01bd 01cd 01b4 01b4 01b5 01bd 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 01bb 01bb 01bb 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 01cd 01b4 01b4 01b5 01bd 01bd 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 01bb 01bb 01bb 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 01bd 01bd 01cd 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01cd 01bb 01bb 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 01bd 01cd 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01cd 01bb 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 01cd 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01b4 01cd 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207
+  - 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f
+  - 1206 1207 1206 1207 11f6 11f7 11f6 11f7 11f6 11f7 11f6 11f7 11f6 11f7 11f6 11f7 11f6 11f7 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207
+  - 120e 120f 120e 120f 11fe 11ff 11fe 11ff 11fe 11ff 11fe 11ff 11fe 11ff 11fe 11ff 11fe 11ff 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f
+  - 1206 1207 1206 1207 0000 0000 1406 0000 13fe 13ff 0000 1406 0000 0000 13fe 1406 13ff 0000 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207
+  - 120e 120f 120e 120f 13fe 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f
+  - 1206 1207 1206 1207 13ff 0000 0000 0268 0269 026a 026b 026c 026d 026e 026f 0000 0000 13fe 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207
+  - 120e 120f 120e 120f 1406 0000 0000 0270 0271 0272 0273 0274 0275 0276 0277 0000 0000 0000 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f
+  - 11f6 11f7 11f6 11e6 11e7 0000 0000 0278 0279 027a 027b 027c 027d 027e 027f 0000 0000 1406 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207
+  - 01b3 0000 11fe 11ee 11ef 0000 0000 0280 0281 0282 0283 0284 0285 0286 0287 0000 0000 13ff 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f
+  - 0000 0000 0000 1206 1207 0000 0000 0288 0289 1406 13fe 13fe 13ff 028e 028f 0000 0000 0000 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207
+  - 0000 0000 0000 120e 120f 0000 0000 0290 0291 2b94 2b95 2b96 2b97 0296 0000 0000 0000 0000 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f
+  - 0000 0000 0000 1206 1207 0000 0000 0298 0299 2b9c 2b9d 2b9e 2b9f 029e 0000 0000 0000 0000 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207
+  - 0000 0000 0000 120e 120f 0000 0000 0000 0000 2ba4 2ba5 2ba6 2ba7 0000 0000 0000 11e6 11e7 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f
+  - 0000 11e6 11e7 11f6 11e6 11e7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 11ee 11ef 11f6 11f7 11f6 11f7 11f6 11f7 11f6 11f7 1206 1207 1206 1207
+  - 0000 11ee 11ef 11fe 11ee 11ef 0000 0000 0000 2b94 2b95 2b96 2b97 0000 0000 0000 1206 1207 11fe 11ff 11fe 11ff 11fe 11ff 11fe 11ff 120e 120f 120e 120f
+  - 0000 1206 1207 0000 1206 1207 0000 0000 0000 2b9c 2b9d 2b9e 2b9f 0000 0000 0000 120e 120f 0000 0000 11e6 11e7 11e6 11e7 0000 0000 1206 1207 1206 1207
+  - 0000 0000 0000 0000 120e 120f 0000 0000 0000 2ba4 2ba5 2ba6 2ba7 0000 0000 0000 1206 1207 0000 0000 11ee 11ef 11ee 11ef 0000 0000 120e 120f 120e 120f
+  - 0000 0000 0000 0000 1206 1207 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 120e 120f 0000 0000 11f6 11f7 11f6 11f7 0000 0000 1206 1207 1206 1207
+  - 0000 0000 0000 0000 120e 120f 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 1206 1207 11e6 11e7 11e6 11e7 11e6 11e7 11e6 11e7 120e 120f 120e 120f
+  - 0000 0000 0000 0000 1206 1207 0000 0000 0000 2b94 2b95 2b96 2b97 0000 0000 0000 11ee 11ef 11ee 11ef 11ee 11ef 11ee 11ef 11ee 11ef 1206 1207 1206 1207
+  - 0000 0000 0000 0000 120e 120f 0000 0000 0000 2b9c 2b9d 2b9e 2b9f 0000 0000 0000 11f6 11f7 11f6 11f7 11f6 11f7 11f6 11f7 11f6 11f7 120e 120f 120e 120f
+  - 0000 0000 0000 0000 1206 1207 0000 0000 0000 2ba4 2ba5 2ba6 2ba7 0000 0000 0000 11fe 11ff 11fe 11ff 11fe 11ff 11fe 11ff 11fe 11ff 1206 1207 1206 1207
+  - 0000 0000 0000 0000 120e 120f 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 2030 2031 2032 2033 2034 0000 0000 0000 120e 120f 120e 120f
+  - 0000 0000 0000 0000 1206 1207 0000 0000 0000 0000 0000 0000 0000 2bab 0000 0000 0000 0000 2038 2039 203a 203b 203c 0000 0000 0000 1206 1207 1206 1207
+  - 0000 0000 0000 0000 120e 120f 0000 0000 0000 2bab 2b9d 2b9e 0000 2bb3 0000 0000 0000 0000 2040 2041 2042 2043 2044 0000 0000 0000 120e 120f 120e 120f
+  - 11f7 11f6 11f7 0000 1206 1207 0000 0000 0000 2bb3 2ba5 2ba6 0000 2bbb 0000 0000 0000 0000 2048 2049 204a 204b 204c 0000 0000 0000 1206 1207 1206 1207
+  - 11ff 11fe 11ff 0000 120e 120f 0000 0000 0000 2bbb 0000 0000 0000 0000 0000 0000 0000 0000 2050 2051 2052 0000 0000 0000 0000 0000 120e 120f 120e 120f
+  - 11e6 11e7 11e6 11e7 1206 1207 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 1206 1207 1206 1207
+  - 11ee 11ef 11ee 11ef 120e 120f 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 120e 120f 120e 120f
+  - 1206 1207 1206 1207 1206 1207 11e6 11e7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 1206 1207 1206 1207
+  - 120e 120f 120e 120f 120e 120f 11ee 11ef 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 120e 120f 120e 120f
+  - 1206 1207 1206 1207 1206 1207 1206 1207 11e6 11e7 11e6 11e7 11e6 11e7 11e6 11e7 11e6 11e7 11e6 11e7 11e6 11e7 11e6 11e7 11e6 11e7 1206 1207 1206 1207
+  - 120e 120f 120e 120f 120e 120f 120e 120f 11ee 11ef 11ee 11ef 11ee 11ef 11ee 11ef 11ee 11ef 11ee 11ef 11ee 11ef 11ee 11ef 11ee 11ef 120e 120f 120e 120f
+  - 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207
+  - 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f
+  - 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207
+  - 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f
+  - 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207 1206 1207
+  - 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f 120e 120f
+encounter_list: []
+encounter_step: 30
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 591, 7, 10, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 22
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [12, 'get_character(0).onEvent?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 208, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 208, p: [1]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &1 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: true
+      - !ruby/object:RPG::EventCommand {i: 1, c: 509, p: [*1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [setTempSwitchOn("A")]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 3
+      walk_anime: true
+    x: 20
+    y: 27
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW (72)
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 207, p: [0, 3]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &2 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &3 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &4 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &5 !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Well hello!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['It''s so freezing, isn''t it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['For a youngster like you to be interested in the Sinjoh ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ruins is not something we see everyday.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Take a look at them.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['From the design of the pillars at the Sinjoh Ruins, you can ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [see that the cultures of Sinnoh and Johto have blended.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [15]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 207, p: [0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['What was I thinking?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['We don''t need to be standing here. Why don''t you come to ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the cabin around the corner for more discussion?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &6 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &7 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &8 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &9 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &10 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &11 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &12 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &13 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &14 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*7]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*9]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*11]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*12]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*13]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*14]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [40]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 6
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 3
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 11
+    y: 17
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: EV003
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 17.0, b: 34.0, g: 17.0, r: 0.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 4
+      walk_anime: true
+    x: 19
+    y: 18
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: EV004
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: BW (72)
+        direction: 8
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['By the way, we happen to have a person at the cabin.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['Any trainer should know who she is. The famous trainer ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [from Sinnoh!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,@event_id) ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['She is travelling around to study myths and ancient ruins. ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Isn''t that something?']}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &15 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &16 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &17 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &18 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &19 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &20 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &21 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &22 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &23 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &24 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+          - &25 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &26 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*15]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*16]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*17]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*18]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*19]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*21]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*22]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*23]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*24]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*25]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*26]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [40]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 6
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: true
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 12
+    y: 27
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: EV005
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 590, 9, 32, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 10
+    y: 12
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: EV006
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 590, 9, 32, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 11
+    y: 12
+  14: !ruby/object:RPG::Event
+    id: 14
+    name: Arceus
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 13
+    y: 31
+height: 40
+tileset_id: 23
+width: 30
