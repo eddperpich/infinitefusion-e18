@@ -1333,7 +1333,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 118, p: [ReceiveEgg]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [12, $Trainer.party.length>=6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [12, '$Trainer.party.length>=SETTINGS::MAX_PARTY_SIZE']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['\bYou have no room for it right now...  Come back ']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [when you've made room.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 115, p: []}

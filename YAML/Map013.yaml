@@ -257,7 +257,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 118, p: [TakeBackChosen]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, $Trainer.party.length>=6]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [12, '$Trainer.party.length >= Settings::MAX_PARTY_SIZE']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 355, p: ['pbCallBub(2,@event_id) ']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [!binary "WW91ciBQb2vDqW1vbiB0ZWFtIGlzIGZ1bGwuICBNYWtlIHJvb20sIHRoZW4g\nY29tZSA="]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [see me.]}
