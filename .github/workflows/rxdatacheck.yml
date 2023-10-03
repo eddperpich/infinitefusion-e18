@@ -11,8 +11,10 @@ on:
     - '**.rxdata'
 jobs:
   create_branch:
-    runs-on: ubuntu/latest
+    runs-on: [self-hosted, ARM64]
     steps:
+    - name: install fusionpacker 
+      run: 'gem install fusionpacker --version "0.1.1"'
     - uses: peterjgrainger/action-create-branch@v2.2.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
