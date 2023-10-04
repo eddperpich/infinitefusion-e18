@@ -21,54 +21,51 @@ jobs:
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: echo "$GITHUB_CONTEXT"
+      - name: clear old git repos
+        run: |
+          sudo rm -rf main
+          sudo rm -rf bare
+          sudo rm -rf tools
+          sudo rm -rf primary
       - name: sparse checkout of infinitefusion
         uses: actions/checkout@v4
         with:
           persist-credentials: false
           fetch-depth: 0
           repository: ${{ github.event.pull_request.head.repo.full_name }}
+          sparse-checkout-cone-mode: false
           sparse-checkout: |
-            Scripts/*
-          path: main
+            /Scripts/**
+          path: bare
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v39
       - name: List all changed files
         id: file-list
         run: |
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "$file was changed"
-          done
-          echo "FILE_LIST=${{ steps.changed-files.outputs.all_changed_files }}" >> "$GITHUB_OUTPUT"
-#      - uses: peterjgrainger/action-create-branch@v2.2.0
-#        env:
-#          GITHUB_TOKEN: ${{ github.token }}
-#        with:
-#          branch: ${{ github.head_ref }}_unpacked
-#          sha: ${{ github.event.pull_request.head.sha }}
-      - name: create unpacked branch
+          echo "${{ steps.changed-files.outputs.all_changed_files }}"
+          {
+            echo "FILE_LIST<<EOF"
+            echo "${{ steps.changed-files.outputs.all_changed_files }}" | sed 's/^\| / \// g' | tr " " "\n"
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+      - name: create unpacked branch (using old 'bare' directory)
         run: |
-          cd ${{ github.workspace }}/main
+          cd ${{ github.workspace }}/bare
           git remote set-url --push origin https://eddperpich:${{ github.token }}@github.com/homie-estate/infinitefusion-e18
           git checkout ${{ github.head_ref }}
           git checkout -B ${{ github.head_ref }}_unpacked
           git push --force --set-upstream origin ${{ github.head_ref }}_unpacked
-      - name: Comment PR
-        uses: thollander/actions-comment-pull-request@v2
-        with:
-          message: |
-            Here is a comparison between the main branch and the unpacked version of this branch! 
-            ${{ github.server_url}}/${{github.repository}}/compare/${{ github.event.repository.default_branch }}...${{ github.head_ref }}_unpacked
       - name: CHECKOUT CHANGED FILES, SPARSELY
         uses: actions/checkout@v4
+        env:
+          FILE_LIST: ${{ steps.file-list.outputs.FILE_LIST }}
         with:
+#          repository: ${{github.repository}}
+          path: primary
+          sparse-checkout-cone-mode: false
           ref: ${{ github.head_ref }}_unpacked
-          sparse-checkout: |
-            ${{ steps.file-list.outputs.FILE_LIST }}
-            .github
-          path: main
-      #      - name: HOMEGROWN RUBY BUILD
-      #        uses: ./.github/actions/build-ruby-arm
+          sparse-checkout: ${{ steps.file-list.outputs.FILE_LIST }}
       - name: CHECK OUT FUSION PACKER
         uses: actions/checkout@v4
         with:
@@ -77,18 +74,45 @@ jobs:
       - name: bundle and test fusionpacker
         run: |
           cd ${{ github.workspace }}/tools
-          bundle install
-          bundle info fusionpacker
-      - name: Unpack files with fusionpacker
+          sudo bundle install
+          sudo bundle info fusionpacker
+      - name: print data that now exists
+        run: |
+          echo "${{ github.workspace }}"
+          echo "---- Workspace"
+          ls -la
+          echo "---- Primary"
+          cd primary
+          ls -ls
+          echo "---- Git Status"
+          git status
+          echo "---- Sparse Checkout List"
+          git sparse-checkout list
+          echo "---- Data directory" 
+          cd Data
+          ls -ls
+          echo "----"
+      - name: unpack files with fusionpacker
         env:
           FILE_LIST: ${{ steps.file-list.outputs.FILE_LIST }}
-        run: bundle exec fusionpacker --force --files $FILE_LIST --project-type xp --action unpack --project ./main}
+        run: |
+          cd ${{ github.workspace }}/tools
+          sudo bundle exec fusionpacker --force --files $FILE_LIST --project-type xp --action unpack --project ${{ github.workspace }}/primary
       - name: commit changed files
         run: | 
-          cd main
+          cd primary
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
+          git remote set-url --push origin https://${{ github.repository_owner }}:${{ github.token }}@github.com/${{github.repository}}
           git add .
           git commit -am "new files generated on unpacked branch"
-
+          git push
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            Here is a comparison between the main branch and the unpacked version of this branch! 
+            ${{ github.server_url}}/${{github.repository}}/compare/${{ github.event.repository.default_branch }}...${{ github.head_ref }}_unpacked
       #      - run: 'gem install bundler'
       #      - run: 'bundle --version'
       #      - run: 'bundle install'
