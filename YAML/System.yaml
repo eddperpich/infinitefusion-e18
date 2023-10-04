@@ -1,0 +1,1395 @@
+--- !ruby/object:RPG::System
+_: 7829367
+actor_collapse_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+battle_bgm: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 100
+battle_end_me: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 100
+battle_start_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+battle_transition: Battle
+battleback_name: 003-Forest01
+battler_hue: 0
+battler_name: battlers
+buzzer_se: !ruby/object:RPG::AudioFile
+  name: buzzer
+  pitch: 100
+  volume: 100
+cancel_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+cursor_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+decision_se: !ruby/object:RPG::AudioFile
+  name: Choose
+  pitch: 100
+  volume: 80
+edit_map_id: 244
+elements:
+- ''
+- ''
+enemy_collapse_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+equip_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+escape_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+gameover_me: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 100
+gameover_name: ''
+load_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+magic_number: 83520653
+party_members:
+- 1
+save_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+shop_se: !ruby/object:RPG::AudioFile
+  name: 016Cry
+  pitch: 100
+  volume: 80
+start_map_id: 295
+start_x: 9
+start_y: 8
+switches:
+- 
+- Starting over
+- !binary |-
+  U2VlbiBQb2vDqXJ1cyBpbiBQb2vDqSBDZW50ZXI=
+- Choosing starter
+- Defeated Gym 1
+- Defeated Gym 2
+- Defeated Gym 3
+- Defeated Gym 4
+- Defeated Gym 5
+- Defeated Gym 6
+- Defeated Gym 7
+- Defeated Gym 8
+- Defeated Elite Four
+- Fossil revival in progress
+- s:PBDayNight.isDay?(pbGetTimeNow)
+- s:PBDayNight.isNight?(pbGetTimeNow)
+- s:PBDayNight.isMorning?(pbGetTimeNow)
+- s:PBDayNight.isAfternoon?(pbGetTimeNow)
+- s:PBDayNight.isEvening?(pbGetTimeNow)
+- s:pbIsWeekday(-1,2,4,6)
+- s:!pbIsWeekday(-1,2,4,6)
+- s:tsOn?("A")
+- s:tsOff?("A")
+- s:cooledDown?(86400)
+- s:cooledDownDays?(1)
+- s:pbInSafari?
+- s:pbBugContestUndecided?
+- s:pbBugContestDecided?
+- s:pbInChallenge?
+- Has National Dex
+- s:pbNextMysteryGiftID>0
+- Shiny wild Pokémon
+- Fateful encounters
+- No money lost in battle
+- No Mega Evolution
+- FUSED WILD POKEMON
+- Randomized Pokemon
+- '----Force Fuse next Pokemon'
+- Defeated Gym 9 (Goldenrod)
+- Defeated Gym 10 (Azalea)
+- Defeated Gym 11 (Violet)
+- Defeated Gym 12 (Blackthorn)
+- TURBO ACTIVATED
+- Defeated Gym 13 (ecruteak)
+- Defeated Gym 14 (Mahogany)
+- Defeated Gym 15 (chuck)
+- First Rival Battle
+- 2EME VERSION
+- AUTOSAVE_enabled
+- running-
+- Defeated Gym 16 (Jasmine)
+- encountered oak - pallet
+- blue waiting to battle yo
+- blue cerulean encounter
+- met traveller
+- LEAGUE - oak barges in
+- Reset Mew encounter
+- Boulder down hole rock cave
+- Boulder down hole ice cave
+- blue rt 22
+- beaten blue rt22
+- oak rt 1 done
+- Arriving_southernIsland
+- got_starter
+- otherfossil
+- chose_helix_fossil
+- chose_dome_fossil
+- Misty_at_gym
+- beat_blue_cerulean
+- nugg_bridge
+- underpass_underwater
+- bill_teleporter
+- teleported
+- farfetchd
+- Bluetakingstarters
+- CAN'T CATCH POKEMON
+- talkedtomom
+- BikeVoucher
+- gotBike!
+- give tea
+- gave tea
+- RaceEvent
+- Race-finished
+- tv-on
+- beat race1
+- lost race1
+- ROCKET_GAMECORNER
+- BlackJack_Stand
+- SSAnne_has_departed
+- Blue S.S.Anne
+- vermilion_lock1
+- vermilion_lock2
+- dux
+- gambler double
+- Double Wild Battles
+- FREEZE_TIME
+- blue_wenttothelab
+- intro_pokerecall
+- intro_pokefused
+- intro_pokeout2
+- intro_pokeout1
+- TH-25-single
+- TH-25-double
+- TH-50-single
+- TH-50-double
+- TH-100-single
+- TH-100-double
+- trainer_house_done
+- no_bump_sound
+- Disable_EXP
+- Snorlax_gone-route12
+- PokeFlute
+- Porygon_bill_complete
+- CYBERSPACE_MAP
+- ready to go in cyberspace
+- been_to_cyberspace
+- ReceivedPorygift
+- OldAmber_quest
+- OldAmber_questFinished
+- rocketouttatheway
+- TH-moveTrainer
+- skinny latte
+- TrainerHouse-promotion
+- Lavender Tower Blue-gone
+- lavender_tower_grunt 3
+- disfunctional-Rocket_lavender tower_gone
+- snorlax_gone_route16
+- Sewers_bridge1
+- on_top
+- Sewers_bridge2
+- Sewer Water high
+- Erika_sewers
+- sewers_tr1
+- sewers_tr2
+- sewers_tr3
+- sewers_tr4
+- sewers_tr5
+- sewers_item1
+- sewers_item2
+- sewers_item3
+- sewers_item4
+- Teamed_w/Erika
+- sewers_tr6
+- '"secret switch" game corner'
+- rocket switch
+- erika_splitup
+- erika_other_entrance
+- erika_giovanni
+- giovanni_gone_celadon
+- ROCKET_CELADON_DONE
+- twins route 8
+- Brock Quest
+- Erika_back in gym
+- got-silph scope
+- rwd-HMFLASH
+- rwd-EXPSHARE
+- rwd-AMULETCOIN
+- rwd-MISTSTONE
+- young_couple_rt12
+- Lavender_hiddenTomb
+- Healing-messages
+- Twins_route14
+- Crushkin_route15
+- scientistVerm
+- BlueWaitingFuschiaCenter
+- Blue beaten - fuchsia
+- Playrer and Oak moving
+- Finished Demo 2
+- LavenderTower Rocket gone
+- sewers_tr6
+- sewers_tr7
+- Rocket BMarket selling
+- Eevee lady
+- Eevee following
+- Blue_waiting_cerulean
+- Quest_construction
+- dispTP instead of Gold
+- Reviving Dome
+- Reviving Helix
+- Outside of condominums
+- Lance Bursting in!
+- Lance gone
+- Erika Entrance3
+- rwd-FLASHLIGHT
+- Quest_eatingPokemon
+- quest- Sinister bell
+- drunker
+- blocking-sewers gone
+- '[kmncenter-handing out balls'
+- Brock-league_gone
+- Mewtwo-use0boosting move
+- ROCKET GONE - - SAFFRON
+- TeleportTile_type1
+- TeleportTile_Reversed
+- disabled_bottom
+- saffron-wall destroyed
+- fused_w_mewtwo
+- Mewtwo appears!
+- ghost lady gone forever - tower
+- Got Lapras
+- CanForfeitBattle
+- diglett1
+- diglett2
+- door_F4_A
+- '### MT MOON ###'
+- rocketgoneMtMoon
+- giovanni speech
+- giovanni speech _ over
+- giovanni_detected
+- giovanni_fight
+- Fusion Waves
+- Giovanni_defeated
+- defeated by Giovanni
+- Lance in Saffron
+- Saffron Gate clear
+- Lance at Silph Co
+- Clefairy startled
+- CLEFGONE
+- Low Balls Shop
+- Got CAPTAIN's key
+- Got the parcel
+- Buzz/Mag
+- Saffron-giovanni
+- Door-F2
+- Door-F6
+- Door-F9
+- f7-piston
+- f2-piston2
+- Giovanni-gone_silphco
+- f8-trainer1
+- f8-trainer2
+- f8-trainer3
+- Blue Saffron
+- f8-item1
+- f8-item2
+- f8-item3
+- lighthouse unlocked
+- beat karate master
+- got karate pokemon
+- ROCKET ID OWNED
+- rocket bullies
+- id_on_floor
+- disappear rocket
+- trigger_charmander quest
+- trade - viridian
+- trade - pewter
+- trade-vermillion
+- trade-celadon
+- trade-starter (cerulean)
+- bill fuses
+- trade
+- silph-f4-piston
+- UNLIMITED_WONDERTRADE
+- seafoam beaten
+- power plant beaten
+- ARTICUNO CAUGHT
+- ZAPDOS CAUGHT
+- MOLTRES CAUGHT
+- birb gone
+- volcano- beaten
+- zapdos chase
+- articuno chase
+- moltres chase
+- catchable birb
+- golbat back to poke
+- Rockets gone BIRD CHASE
+- bird event - rocket exec
+- volcano teleport
+- incredible nickanem
+- lance gone
+- lance to the rescue
+- go get the birds
+- TR cinnabar lab
+- Blaine back at gym
+- Cinnabar Mansion unlocked
+- defeated-robot
+- Magikarp rt3
+- Magikarp Celadon
+- mankey paws
+- Lavender - Saffron unlocked
+- first time mankey
+- saffron -in battle
+- Blue outside Silph Co.
+- insta teleport to f9
+- go down to 1f
+- MANSION SWITCH ON
+- POWERPLANT - Zapdos Room
+- Giovanni at gym
+- articuno gone
+- zapdos gone
+- moltres gone
+- otherBIRBS
+- moltresgone
+- zapdosgone
+- articunogone
+- first bird - beaten
+- got beldum
+- PPlant_gate open
+- beat race 2
+- lost race 2
+- quest-rare bones
+- johto trade -safari
+- johto trade -rt. 11
+- johto trade -cinnabar
+- johto trade - crimson
+- young couple _rt34
+- sis34
+- canjump
+- bouldVR1
+- bouldVR2
+- bouldVR3
+- bould fell
+- bouldVR4
+- Inside E4
+- AZALEA unflooded
+- ???
+- know_what_flooded_the well
+- GOT_DIVE
+- young couple rt_32
+- Graveler gone Union Cave
+- rwd-SACREDPOTION
+- s:cooledDownDays?(7)
+- Celebi
+- giovanni fly
+- Giovanni in Johto
+- Giovanni Crimson event
+- stoned dude finished
+- Goldenrod elevator
+- sneasel trade - goldenrod
+- Choose Johto Starter
+- Got Johto Starter
+- just slept in hotel
+- visited waterfall cave
+- encountered absol
+- encountered slaking
+- gible complete
+- Stole Sprout Statue
+- lucario complete
+- kecleon complete
+- INVISIBLE KECLEON -saffron
+- unknown puzzle complete
+- RAICUNE ROAMING
+- goldenrod - meowtwo - away
+- --Cerulean Cave unlocked
+- --Caught Mewtwo
+- --Mewtwo fled
+- back indoor
+- entei outside
+- Entei detected
+- Entei at Rt. 30
+- Entei roaming
+- ho-gia encounter
+- HO-GIA- caught
+- encountered ho-gia
+- eusine at his house
+- visited Farway Island
+- STRONG-WIND
+- SOFT-WIND
+- dark cave - rock blew up
+- TNT
+- blackthorngym - h1
+- blackthorngym - h2
+- blackthorngym - h3
+- talked to eusine in goldenrod
+- talked to eusine in azalea
+- traded w/ eusine in goldenrod
+- beaten eusine in azalea
+- eusine violet running
+- eusine at ruins of alph
+- raicune arc finished
+- listened to cutscene
+- got HOENN STARTER
+- entei - can battle
+- entei caught
+- rai-cune unlocked
+- ARCEUS CAUGHT
+- 'well - slowpoke evolving '
+- un slowpoke, pas un rocher
+- shell1
+- shell2
+- shell3
+- shell4
+- HO-GIA GONE
+- Morty at Gym
+- mahogany gym score!
+- giovanni in goldenrod (old)
+- whitneu goldenrod
+- got azure flute
+- got berserk gene
+- cutscene combines
+-  eusine - traded mewtwo
+- eusine - traded articuno
+- eusine - traded zapdos
+- eusine - traded moltres
+- eusine - traded suicune
+- eusine - traded raikou
+- eusine - traded entei
+- eusine - traded ho-oh
+- eusine - traded lugia
+- eusine - traded celebi
+- eusine - traded mew
+- RWD-GSBALL
+- whitney - barriere 1
+- whitney - barriere 2
+- whitney - barriere 3
+- whitney pokecount1
+- whitney pokecount2
+- whitney pokecount3
+- got -RALTS
+- found SlowpokeTail
+- Quest SlowpokeTail
+- -- beedrill1
+- -- beedrill2
+- johto trade - fuschia
+- counting berry kids
+- plasma warehouse
+- red alert
+- plasma dialogue
+- plasma going to genesct lab
+- rocket gone from warehouse
+- plasma gone from lab
+- frozen lake of rage
+- froze lake at least once
+- lake not cold anymore.
+- temp-blue
+- BEAT CHAMPION
+- rematch-brock
+- rematch-misty
+- rematch-surge
+- rematch-erika
+- rematch-koga
+- rematch-sabrina
+- rematch-blaine
+- rematch-giovanni
+- rematch-whitney
+- rematch-kurt
+- rematch-falkner
+- rematch-claire
+- ''
+- beat rematch - brock
+- beat rematch - misty
+- beat rematch - surge
+- beat rematch - erika
+- beat rematch - koga
+- beat rematch - sabrina
+- beat rematch - blaine
+- beat rematch - giovanni
+- beat rematch - whitney
+- beat rematch - kurt
+- beat rematch - falkner
+- beat rematch - claire
+- kindle road boulder
+- bebe on boon island
+- saved jumpluff
+- been to boon game corner
+- gotta save jumpluff
+- jumpluff gone
+- colress working on machine
+- visited P2 Laboratory
+- team plasma harbor cutscene
+- unlocked Boon island
+- unlocked Kin island
+- unlocked Chrono island
+- unlocked Navel Rock
+- unlocked P2 Laboratory
+- unlocked New Moon island
+- mew caught
+- unlocked Sky Pillar
+- visited Sky Pillar
+- azure flute
+- basket 1 full
+- basket 2 full
+- basket 3 full
+- sealed chamber unlocked
+- darkrai event
+- rt5 couple
+- Darkrai caught
+- Darkrai fled
+- went to newmoon island
+- Kyogre caught
+- Kyogre fled
+- kyogre cave open
+- Groudon caught
+- Groudon fled
+- Regigigas caught
+- Regigigas fled
+- Genesect caught
+- Genesect fled
+- groudon cave open
+- Rayquaza caught
+- Rayquaza fled
+- Kyurem caught
+- Kyurem fled
+- Reshirom caught
+- Reshirom fled
+- genesect out
+- whitney gioldenrod event done
+- celio - change dialog
+- legendary eggs
+- cynthia at ruins
+- sinnoh event
+- have corsola reef item
+- 'Corsola reef #4'
+- 'Corsola reef #3'
+- 'Corsola reef #2'
+- 'Corsola reef #1'
+- push kindle road boulder
+- rt 43 gate
+- rematch -- morty
+- rematch -- Pryce
+- rematch -- chuck
+- rematch -- jasmine
+- beat rematch - morty
+- beat rematch - pryce
+- beat rematch - chuck
+- beat rematch - jasmine
+- chuck - challenge
+- jasmine - challenge
+- whitney gioldenrod event2 done
+- 'Corsola reef #5'
+- ecruteak gym shortcut
+- arceus stairs appeares
+- got de sapphire
+- unknown hole
+- wild illuxion
+- high water bubbles
+- QUEST - BANANA
+- ecruteak gym_ on
+- bell_tower_left_darkness
+- alder gib stone
+- got de ligte an durk stons
+- u can go to de tower
+- arrete de bouger caliss
+- encountered reshirom
+- door_F4_B
+- door_F3
+- door_F2
+- door_F5A
+- door_F5B
+- door_F7A
+- door_F7B
+- door_F7C
+- door_F8
+- cloned zapmolticuno
+- cloned enraicune
+- cloned kyogrouquaza
+- cloned paldiatina
+- cloned kyureshirom
+- berrykids - confused
+- phantump quest
+- COLRESS-TRIPLE-FUSION
+- hard mode - brock
+- hard mode - misty
+- hard mode - surge
+- hard mode - erika
+- hard mode - koga
+- hard mode - sabrina
+- hard mode - blaine
+- hard mode - giovanni
+- hard mode - whitney
+- hard mode - kurt
+- hard mode - falkner
+- hard mode - claire
+- hard mode - chuck
+- hard mode - morty
+- hard mode - pryce
+- hard mode - jasmine
+- HARD MODE - E4
+- HARDMODE - Mt. Silver
+- can use hard mode
+- got hardmode package
+- Saved Every Silph Worker
+- GROUDON APPEARS
+- Can Go in Lava
+- hotspring mt. ember event
+- blue fight rt 22 before league
+- door_9FA
+- door_9FB
+- door_9FC
+- door_9FD
+- door_10F
+- door_5F
+- door_5FB
+- door_F2B
+- rival - fuschia
+- beat rival in fuschia
+- oak postgame - told about mewtwo
+- fossil guy_vermillion
+- fossil_guy_celadon
+- choseLileepFossil
+- choseAnorithFossil
+- fossil_guy_postgame (unused)
+- quest- strength item
+- completed strength quest
+- received strength item
+- TIMER - ACTIVE
+- beat robot - blue
+- beat robot - yellow
+- beat robot - green
+- in battle arena
+- randomizeTrainersCustom
+- mtsilver_boulder1
+- Lati@s roaming
+- pokeradar quest rt.24
+- received quest journal
+- jirachi-pick
+- deoxys caught
+- deoxys fled
+- can_encounter_jirachi
+- encountered_jirachi
+- traded voltorb - vermilion
+- got pickaxe
+- celadon cutscene over
+- eusine don't give back
+- mtsilver-portal-animation
+- ''
+- ''
+- ''
+- factory- double
+- surf - racing
+- banette static
+- rotom gone
+- mimikyu
+- been to library
+- been to bathroom
+- been to classroom
+- Team Rocket took masterball
+- silph machine produced masterballs
+- blue following
+- partner blue waiting silph co
+- saffron cutdscene over
+- cinnabar harbor cutscene
+- cinnabar cutscene over
+- cinn-cscene decision YES
+- cinn-cscene decision NO
+- cinnabar cutscene tr-gone
+- got seagallop or boat back
+- cinnabar scientist cutscene over
+- TR gone mt.ember
+- Seagallop missing
+- Seagallop recovered
+- mt. ember door open
+- zapmolcuno-fused
+- MOLTRES catchable
+- paldiatina-effect1
+- paldiatina-effect2
+- paldiatina-effect3
+- paldiatina_warp
+- gold coming
+- superslow
+- questReward_linkCable
+- Got ALL JOHTO BADGES
+- oak-cynthia-discussion
+- blue-cynthia waiting Mt.Silver
+- mt.silver gate-discussion
+- mt. silver - blue gone
+- mt. silver - cynthia gone
+- pupitar-near-water
+- mt. silver -river diverted
+- puzzle-room-1-complete
+- mt. silver rival fight
+- Got Rock Climb
+- RANDOM_GYM_CUSTOM
+- RANDOM_GYM_PRESERVE
+- RANDOM_WILD_ONLYCUSTOM
+- new game - easy Mode
+- new game - hard Mode
+- RANDOM_GYMS
+- GYM_RANDOM_EACH_BATTLE
+- dex_shuffled
+- at mt.silver summit
+- beat gold once (5.1)
+- ''
+- ''
+- ''
+- SILVERBOSS BATTLE
+- Mt. Moon - brock arrives
+- Mt. Moon - nurse back in center
+- Mt. Moon- TR cutscene1
+- Mt. Moon - TR deep in cave
+- ''
+- get the fossils
+- ''
+- ''
+- ''
+- ''
+- ''
+- gallery_artist_is_here
+- Custom art exhibition tomorrow
+- tangela gone
+- Erika walks in
+- gyarados-gone
+- raticate in sewers- celadon
+- CUTSCENE- celadon sewers
+- rocket in sewers- celadon
+- blue-gone-celadon
+- 11f from stairs or elevator
+- rotom-gone-saffron
+- rotom-gone-celadon
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- quest_dive_in_progress
+- Cinnabar need refresh
+- Obtained Master Ball
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- RANDOM_ITEMS
+- rnd_items_type_MAPPED
+- rnd_npcItems_MAPPED
+- rnd_shopItems_MAPPED
+- RandomFoundItems
+- RandomNpcItems
+- RandomNpcTms
+- RANDOM TMs
+- RANDOMIZED_ITEMS_GENERAL
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- DOUBLE_ABILITIES
+- NO_LEVELS
+- battle factory - include all
+- test
+- RANDOM_BY_MAP
+- WILD_POKE_RANDOM
+- powerplant unlocked
+- RANDOM_GIFT_POKEMON
+- Been to Birth Island
+- AUTOSAVE_catch
+- AUTOSAVE_win
+- AUTOSAVE_steps
+- override_battle_level
+- LOUNGE_TR1
+- LOUNGE_TR2
+- LOUNGE_TR3
+- lounge_door_open
+- SINGLE_POKEMON_MODE_ON
+- SPM_head
+- SPM_body
+- SPM_random
+- ENABLED_CHEATS_AT_LEAST_ONCE
+- CLONED DNA trio
+- pokedex_synced
+- removed_baramod
+- USED_AN_INCENSE
+- Pokemon converted 4.8
+- Pokemon converted 4.7
+- evolvedRivaStarter_SSANNE
+- VisitedBattleFactory
+- eevee4elekid
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- Beat Paldiatina
+- blue mt.silver
+- giovanni out - mt ember
+- birds-unfused
+- birdboss-beaten
+- start-birdboss cutscene 2
+- start-birdboss cutscene 3
+- start-birdboss cutscene 1
+- tripleboss battle
+- V 5.1
+- s:cooledDown?(8)
+- events ignore ice
+- FORCING-FUSION
+- randomzied encounters to fusions
+- wildpokemonarray-atleastonce
+- CLONED kanto starter
+- CLONED johto starter
+- CLONED hoenn starter
+- CLONED sinnoh starter
+- CLONED mythical fairies
+- QUEST - Deoxys - birth island
+- QUEST - Deoxys
+- beat blu b4 ligue
+- gotNugget
+- DEFINED_RIVAL_STARTER
+- randomBattle_customOnly
+- GOT DEBUG MODE
+- RND HELD_ITEMS TRAINERS
+- HARD league beat
+- got de hard mode
+- Hard mode exp. bonus
+- Hard Gold beat
+- got debug mode
+- beat champion R3
+- DEM'S HARD MODE
+- UP_TO_DATE_3.1
+- choisi un oiseau
+- !binary |-
+  UE9Lw4lNT04gQ09OVkVSVEVEIGZyb20gMy4w
+- s:cooledDown?(500)
+- RandomizedPokemonAtLeastOnce
+- suspicious man arrested
+- talked to the suspicious man again
+- suspicious man accused
+- took the daycare egg
+- BERRY FOREST CLEAR
+- lost berry kids
+- viridianriver-starter1
+- viridianriver-mew
+- viridianriver-starter2
+- viridianriver-starter3
+- FLEEING POKEMON
+- river - moved
+- -- unlocked new game plus --
+- TELEPORTING POKEMON
+- klinklank gone
+- zoroark gone
+- luxray gone
+- milotic gone
+- FLYGONe
+- secretshroom
+- visited Goldenrod
+- visited Azalea
+- visited Union Cave
+- visited Violet
+- visited cherrygrove
+- visited new brark
+- visited blackthorn
+- special - custom starter
+- special - Johto starters
+- special - Hoenn starters
+- special - Sinnoh starters
+- unlocked dodrio run
+- golbat won!
+- Golbat started!
+- GOLBAT MINIGAME
+- Dodrio level 2
+- you lose!
+- DODRIO RUNNIN'
+- sandcas2
+- sandcas1
+- don'T use
+- BLOCK-OPENING-MENU
+- oak event pallet
+- EXPLODING POKEMON
+- s:cooledDownDays?(7)
+- demo 2 oak parti
+- QUEST_CUT
+- QUEST_ diamond
+- QUEST_metal powder
+- QUEST_omelette
+- QUEST_keystone
+- got spiritomb
+- QUEST_pineco
+- POKEMON CONVERTED 4.5
+- v4.4 +
+- WON PIKACHU GAME - NO DEATH
+- PLAYED PIKACHU GAME
+- WON PIKACHU GAME
+- falkner fly
+- s:cooledDownDays?(3)
+- FISHING AUTOHOOK
+- °° during intro °°
+- defeated MT SILVER
+- -- Playing from 4.0 --
+- EXP.ALL ON
+- RANDOMIZED_GYM_TYPES
+- Race Quest Over (reward)
+- won race
+- quest biking
+- dance watch
+- QUEST_Mushrooms
+- QUEST_Wallet
+- '---Found lost wallet'
+- QUEST_Seafood
+- --got krab legs
+- QUEST_LoveLetter
+- QUEST_Nightclub
+- --go get drunk
+- --isdrunk
+- --danceOff
+- --dancing
+- --playersdancing
+- --copycat at hotel
+- LoveLetterQuest - in progress
+- QUEST_SHELLDER
+- QUEST_GRIMER
+- Quest_boots
+- Quest_ lost chansey
+- Quest_lost_chansey-FOUND
+- QUEST_lighthouse
+- Quest_egg
+- Quest_hidden_tomb_complete
+- QUEST_Lost puppies
+- Quest_bike
+- Quest_bike - OVER
+- Intro
+- DISABLESCENEMOTION
+- FULL RANDOM
+- RANDOMIZER STARTERS
+- RANDOMIZER STATIC ENCOUNTERS
+- WILD_RANDOM_GLOBAL
+- randomized mode (intro)
+- rnd_groundItems_FULL
+- rnd_groundTMs_FULL
+- Visited Viridian
+- Visited Pewter
+- Visited Cerulean
+- Visited Vermillion
+- Visited Lavender
+- Visited Celadon
+- Visited Fuschia
+- Visited Saffron
+- Visited Cinnabar
+- Visited Crimson
+- Visited Indigo Plateau
+- POKEMON CONVERTED 4.0
+- -- Unlocked Game Modes --
+- GAMEMODE_HARD
+- GAMEMODE_MODERN
+- GAMEMODE_RANDOMIZED
+- mew under truck
+- creepium
+- sliding
+- PLAYING FROM OLDER VERSION
+- s:cooledDown?(900)
+- Finished demo 3.0
+- demo oak gone
+- SKIP GIOVANNI FIGHT
+- FASTER BIKE
+- s:cooledDown?(3600)
+- UP TO DATE 3.0
+- RANDOMIZER TRAINERS
+- JourneyStarted
+- SS.Ticket
+- intro_letterfalling
+- Trainer House
+- 3D mode
+- intro_cutscene-over
+- special
+- Finished_demo 2.0
+- something_that_oak_does
+- Cut_HM_Cheat
+- twins_route6
+- 3.0 - NOT PLAYING FROM OLD VERSION
+test_battlers:
+- !ruby/object:RPG::System::TestBattler
+  actor_id: 1
+  armor1_id: 0
+  armor2_id: 0
+  armor3_id: 0
+  armor4_id: 0
+  level: 1
+  weapon_id: 0
+test_troop_id: 1
+title_bgm: !ruby/object:RPG::AudioFile
+  name: Title
+  pitch: 100
+  volume: 100
+title_name: Title
+variables:
+- 
+- Temp Pokemon Choice
+- Temp Move Choice
+- Temp Pokemon Name
+- Temp Move Name
+- Temp Text Entry
+- !binary |-
+  UG9rw6kgQ2VudGVyIGhlYWxpbmcgYmFsbCBjb3VudA==
+- Starter choice
+- Apricorn being converted
+- old- Fossil being revived
+- Elevator current floor
+- Elevator new floor
+- Rival name
+- E4 defeated count
+- Current City - (Wondertrade)
+- temp_PRICE
+- temp_x position
+- temp_y position
+- force_speed
+- '-----------temp'
+- '----------temp'
+- '----secret plant - reset starters-----'
+- Turbo TOGGLE
+- Turbo X
+- AUTOSAVE_healing
+- MAPVIEWMODE
+- RaceLap
+- Race1_won
+- cards
+- Blackjack Total
+- Card value
+- Card name
+- Blackjack Gambler Total
+- diff
+- main_course
+- stair_vermGym
+- SwitchVermilion
+- trashcanRand
+- betted_amount
+- argent
+- Debt_gambling
+- Debt
+- nb_of_wins - BLACKJACK
+- total_money_won
+- total_money_lost
+- rand
+- trainer_house_mf
+- trainer_house_streak_curr
+- trainer_house_streak_record
+- TP_won
+- Total_TP
+- bonusTP
+- TRAINER_GENDER
+- trainer_house_BSTLIMIT
+- PORYGON_SPACE
+- beedril_killed
+- preschoolers_defeated
+- pokemon_egg_route 8
+- intro_screen_cursor
+- Which joke will the clown tell?
+- clown_tip
+- curr_money
+- '#coffee'
+- nb coffee
+- Poke_Sale_1
+- Poke_Sale_2
+- Poke_Sale_3
+- bst_pokesale
+- pokemon_bstcap
+- pokesale_name1
+- pokesale_name2
+- pokesale_name3
+- Sale_choice
+- dept_store_fountain
+- 'Time: Hour'
+- 'Time: Minutes'
+- truck
+- aleatoire
+- prev_form
+- Time:Add
+- team_rocket-whichdoor
+- trainer_school_choice
+- WildMon Trashcan_rand
+- floor-dept-elevator
+- Trainer-Name_temp
+- Time_fossil-revival
+- fossil-revival-date
+- TrainerHouse-BSTMin
+- Last BMarket date
+- SAVE_SLOT
+- party_4_temp
+- party1_temp
+- party2_temp
+- party3_temp
+- TP-temp
+- TP-multiplier
+- NB_QUESTS_ACCEPTED
+- NB_QUESTS_ACTIVE
+- NB_QUESTS_COMPLETED
+- PLAYER AGE
+- TOTAL_TIP_GIVEN
+- Eevee tiredness
+- Eevee steps
+- quest-nb till next
+- dancemoves_array
+- dancing round
+- RightorWrong
+- Silph Co. Arrows
+- Lowballs unlocked
+- Berries array
+- '- boss pokemon -'
+- PREMIUM_WONDERTRADES
+- silph co. elevator
+- incredible nickname
+- incr nickname species
+- is incredible?
+- mankey payout
+- Cinnabar Gym questions
+- STORAGE boxes price
+- ADDITIONAL STORAGE BOXES
+- WonderTrade BST +-
+- mt.moon player_pos 0_1_2
+- diglett-wait
+- diglett-level
+- diglett-x
+- diglett-y
+- NUMBER OF TIMES FUSED
+- TH- bonus TP
+- PPLANT - power %
+- PPlant - num batteru
+- batteries collected
+- quest-lost wallet
+- Stone dude
+- GoldenRod elevator
+- num Elite 4 defeated
+- spiderwebs - azalea
+- azalea - CurrPasscode
+- azalea index
+- azalea - passCode
+- MACHETE cut trees
+- sad clown tip
+- checkpoints - quest bike
+- lost pup found
+- Quest_puppies
+- Your BIRD
+- voltorb-confirmed
+- QUEST_VOLTORB
+- QUEST_GRIMER
+- QUEST_SHELLDER
+- trainer_x
+- trainer_y
+- array_random leader types
+- currentGym
+- Pokemon lottery Array
+- goldenrod - meowtwo trade
+- Shedinja n times
+- Unown puzzle - array
+- Unown puzzle - validation
+- nb de slowbro - well
+- eusineLegendPrice
+- lavender - unpossessed zombies
+- chosen - hoenn starter
+- nb - gym rematches won
+- nb-sandcastles-destroyed
+- nb-wondertrades
+- nb - HARD  gym rematches won
+- eusine traded legendaries
+- quest_crab_total
+- QUEST_CRABS
+- 'oak - rt1 position '
+- quest-flowers
+- total_num_pineco
+- QUEST_PINECO
+- RT1. secret garden time
+- nb-time beat league
+- debug - blackthorn
+- SEVII FERRY LIST
+- pika adventure location
+- sealed Chamber - basket 1
+- sealed Chamber - basket 2
+- sealed Chamber - basket 3
+- boon shop guy nb of times
+- boon shop item list
+- total meters ran
+- topscore - doduo
+- topscore - dodrio
+- coyote move_speed
+- bird laps
+- lost children - berry forest
+- legendary eggs
+- pikachu minigame - final death count
+- pikachu minigame - total death
+- pikachu minigame deaths
+- nb secrets discovered
+- bonus coins collected
+- trainers-stat range
+- CUSTOM SPRITES
+- wild_BST_RANGE
+- USESCENEMOTION
+- BATTLEUI_STYLE
+- SLIDING
+- Sinnoh Starter choice
+- help balls - golbat minigame
+- resort - daily poke1
+- resort - daily poke2
+- sky pillar - prev floor
+- bell tower - locks
+- kimono-girl-defeated
+- resort gorgeous_nb
+- ROCKET_PWD
+- wild fusion rate
+- temp_ golbat game_heartscales
+- rival's poke1 (body)
+- rival's poke2 (head)
+- rand-mew
+- rand-starter1
+- rand-starter2
+- rand-starter3
+- placed plate
+- hidden-power teach
+- '[FUSION ICONS MODE] '
+- lost traveller
+- karma
+- ilex forest - trees cut
+- '[SWITCH] beat gold v4.5+'
+- money spent hotel
+- hiddenAbility MAP
+- nb. rare  candy given
+- arceus stairs
+- silph workers saved
+- mt.mortar-randomPoke
+- mt mortar-level
+- piano note
+- doll
+- jirachi balls
+- spaceship parts found
+- AUTOSAVE_STEPS
+- CONST_jirachi_threshold
+- battle_lounge_group
+- battle_lounge_prize
+- BATTLE_LEVEL_OVERRIDE
+- battle_factory_bst_additional
+- default_battle_type
+- BattleFactoryTokens
+- kinIsland - Poke of the day
+- kin-island-battle1
+- kin-island-battle2
+- kin-island-trade
+- STANDARD_WONDERTRADE
+- system -- choice position
+- Rival Starter
+- Single_pokemon_mode
+- oddkeystone-nb-spirits
+- poke_of_the_day- vermillion
+- battleFactory_tokensWon
+- battleFactory_TOTALWIN
+- battleFactory_TOTALLOSS
+- battleTower_minBST
+- battleTower_maxBST
+- gallery_featured_artist
+- gallery_featured_sprites
+- gallery_all_artist_sprites
+- selected_customSpriter
+- times_visited_gallery
+- NEXT_ARTIST_FORMATTED
+- stats-rare candies used
+- RADIO_POINTS
+- stat_fusionQuizz_highest
+- stat_fusionQuizz_nb
+- stat_fusionQuizz_total
+- ''
+- FOSSIL_REVIVAL
+- video_time_elapsed
+- video_initTime
+- video_frames_control
+- shiny_hue_offset
+windowskin_name: Windowskin
+words: !ruby/object:RPG::System::Words
+  agi: ''
+  armor1: ''
+  armor2: ''
+  armor3: ''
+  armor4: ''
+  atk: ''
+  attack: ''
+  dex: ''
+  equip: ''
+  gold: ''
+  guard: ''
+  hp: ''
+  int: ''
+  item: ''
+  mdef: ''
+  pdef: ''
+  skill: ''
+  sp: ''
+  str: ''
+  weapon: ''

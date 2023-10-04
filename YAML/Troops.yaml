@@ -1,0 +1,23 @@
+---
+- 
+- !ruby/object:RPG::Troop
+  id: 1
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_hp: 50
+      actor_id: 1
+      actor_valid: false
+      enemy_hp: 50
+      enemy_index: 0
+      enemy_valid: false
+      switch_id: 1
+      switch_valid: false
+      turn_a: 0
+      turn_b: 0
+      turn_valid: false
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
