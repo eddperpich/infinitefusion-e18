@@ -1,0 +1,97 @@
+# This is a basic workflow that is manually triggered
+
+name: RXDataUnpacker
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  pull_request:
+    ## Only trigger when pull request has rxdata changes.
+    paths:
+      - '**.rxdata'
+jobs:
+  unpack-rx-data:
+    runs-on: [ self-hosted, ARM64 ]
+    permissions:
+      contents: write
+      packages: read
+      pull-requests: write
+    steps:
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+      - name: sparse checkout of infinitefusion
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          sparse-checkout: |
+            Scripts/*
+          path: main
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v39
+      - name: List all changed files
+        id: file-list
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "$file was changed"
+          done
+          echo "FILE_LIST=${{ steps.changed-files.outputs.all_changed_files }}" >> "$GITHUB_OUTPUT"
+#      - uses: peterjgrainger/action-create-branch@v2.2.0
+#        env:
+#          GITHUB_TOKEN: ${{ github.token }}
+#        with:
+#          branch: ${{ github.head_ref }}_unpacked
+#          sha: ${{ github.event.pull_request.head.sha }}
+      - name: create unpacked branch
+        run: |
+          cd ${{ github.workspace }}/main
+          git remote set-url --push origin https://eddperpich:${{ github.token }}@github.com/homie-estate/infinitefusion-e18
+          git checkout ${{ github.head_ref }}
+          git checkout -B ${{ github.head_ref }}_unpacked
+          git push --force --set-upstream origin ${{ github.head_ref }}_unpacked
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            Here is a comparison between the main branch and the unpacked version of this branch! 
+            ${{ github.server_url}}/${{github.repository}}/compare/${{ github.event.repository.default_branch }}...${{ github.head_ref }}_unpacked
+      - name: CHECKOUT CHANGED FILES, SPARSELY
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}_unpacked
+          sparse-checkout: |
+            ${{ steps.file-list.outputs.FILE_LIST }}
+            .github
+          path: main
+      #      - name: HOMEGROWN RUBY BUILD
+      #        uses: ./.github/actions/build-ruby-arm
+      - name: CHECK OUT FUSION PACKER
+        uses: actions/checkout@v4
+        with:
+          repository: 'homie-estate/fusionpacker'
+          path: tools
+      - name: bundle and test fusionpacker
+        run: |
+          cd ${{ github.workspace }}/tools
+          bundle install
+          bundle info fusionpacker
+      - name: Unpack files with fusionpacker
+        env:
+          FILE_LIST: ${{ steps.file-list.outputs.FILE_LIST }}
+        run: bundle exec fusionpacker --force --files $FILE_LIST --project-type xp --action unpack --project ./main}
+      - name: commit changed files
+        run: | 
+          cd main
+          git add .
+          git commit -am "new files generated on unpacked branch"
+
+      #      - run: 'gem install bundler'
+      #      - run: 'bundle --version'
+      #      - run: 'bundle install'
+      #      - run: 'bundle exec fusionpacker --help'
+
+    
